@@ -2,13 +2,13 @@ import React from 'react';
 import { AiOutlineBars } from 'react-icons/ai'
 import { NavbarContainer, NavLogo, Nav, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink } from './NavbarElements';
 
-const Navbar = () => {
+const Navbar = ({toggle}) => {
   return (
     <>
         <Nav>
             <NavbarContainer>
                 <NavLogo to='/'>EMG</NavLogo>
-                <MobileIcon>
+                <MobileIcon onClick={toggle}>
                   <AiOutlineBars/>
                 </MobileIcon>
                 <NavMenu>
