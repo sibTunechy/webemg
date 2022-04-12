@@ -27,7 +27,7 @@ const HeroSection = () => {
                 </Button>
             </HeroBtnWrapper>
         </HeroContent>
-    </HeroContainer>
+    </HeroContainer> // Hero section ongoing
   )
 }
 
