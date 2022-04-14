@@ -27,7 +27,7 @@ const HeroSection = () => {
                 </Button>
             </HeroBtnWrapper>
         </HeroContent>
-    </HeroContainer> // Hero section, continuation needed.
+    </HeroContainer> 
   )
 }
 
