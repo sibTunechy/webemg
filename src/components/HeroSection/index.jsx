@@ -22,7 +22,7 @@ const HeroSection = () => {
                 Sign up for a new account on EMG and receive
             </HeroP>
             <HeroBtnWrapper>
-                <Button to='joinus' onMouseEnter={onHover} onMouseLeave={onHover}>
+                <Button to='joinus' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
                     Get Started {hover ? <ArrowForward/> : <ArrowRight/>}
                 </Button>
             </HeroBtnWrapper>
