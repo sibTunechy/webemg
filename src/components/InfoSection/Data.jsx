@@ -10,6 +10,7 @@ export const homeObjOne = {
     imgStart: false,
     img: require('../../images/svg-1.svg'),
     alt: 'Car',
+    dark: true,
     primary: 'true',
     darkText: false
 };
