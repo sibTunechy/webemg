@@ -4,7 +4,7 @@ export const homeObjOne = {
     lightText: true,
     lightTextDesc: true,
     topLine: 'Purpose Statement',
-    headline: 'Unlimited Transactions with zero fees',
+    headline: 'EMG is a technology company focused on the use of data to drive consumer engagements for clients',
     description: 'Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.',
     buttonLabel: 'Get started',
     imgStart: false,
@@ -22,26 +22,26 @@ export const homeObjTwo = {
     lightText: false,
     lightTextDesc: false,
     topLine: 'Our Services',
-    headline: '',
+    headline: 'EMG is a technology company focused on the use of data to drive consumer/stakeholder engagements for clients',
     description: 'Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.',
-    buttonLabel: 'Get started',
+    buttonLabel: 'Learn More',
     imgStart: false,
     img: require('../../images/svg-8.png'),
     alt: 'People',
-    dark: true,
-    primary: true,
-    darkText: false
+    dark: false,
+    primary: false,
+    darkText: true
 };
 
 
 export const homeObjThree = {
-    id: 'about',
+    id: 'discover',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
     topLine: 'Elizabeth Mattew Group',
     headline: 'Unlimited Transactions with zero fees',
-    description: 'Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.',
+    description: 'EMG is a technology company focused on the use of data to drive consumer/stakeholder engagements for clients.',
     buttonLabel: 'Get started',
     imgStart: false,
     img: require('../../images/svg-2.png'),
