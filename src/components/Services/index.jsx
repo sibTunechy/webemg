@@ -6,9 +6,19 @@ const Services = () => {
         <ServicesH1>Our Services</ServicesH1>
         <ServicesWrapper>
             <ServicesCard>
-                <ServicesIcon src={Icon}/>
+                <ServicesIcon src={Icon1}/>
                 <ServicesH2>Reduce expenses</ServicesH2>
-                <ServicesP></ServicesP>
+                <ServicesP>We help reduce your fees and increase your overall revenue</ServicesP>
+            </ServicesCard>
+            <ServicesCard>
+                <ServicesIcon src={Icon2}/>
+                <ServicesH2>Virtual Offices</ServicesH2>
+                <ServicesP>You can access our platform online anywhere in the world</ServicesP>
+            </ServicesCard>
+            <ServicesCard>
+                <ServicesIcon src={Icon3}/>
+                <ServicesH2>Premium Benefits</ServicesH2>
+                <ServicesP>Unlock our special membership card returns a certain amount</ServicesP>
             </ServicesCard>
         </ServicesWrapper>
     </ServicesContainer>
