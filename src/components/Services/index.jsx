@@ -1,4 +1,9 @@
-import React from 'react'
+import React from 'react';
+import Icon1 from '../../images/svg-4.png';
+import Icon2 from '../../images/svg-5.png';
+import Icon3 from '../../images/svg-7.png';
+
+import {ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesIcon, ServicesH2, ServicesP} from './ServicesElements';
 
 const Services = () => {
   return (
