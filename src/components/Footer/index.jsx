@@ -1,5 +1,6 @@
 import React from 'react';
-import { FooterContainer, FooterLinkTitle, FooterWrap, FooterLinksContainer, FooterLinkItems, FooterLinksWrapper, FooterLink } from './FooterElements';
+import { FooterContainer, FooterLinkTitle, FooterWrap, FooterLinksContainer, FooterLinkItems, FooterLinksWrapper, FooterLink, SocialMedia, SocialMediaWrap, SocialLogo, WebsiteRights, SocialIcons, SocialIconLink } from './FooterElements';
+import {FaFacebook, FaInstagram, FaLinkedIn, FaYoutube, FaTwitter} from 'react-icons';
 
 const Footer = () => {
   return (
@@ -38,7 +39,7 @@ const Footer = () => {
                 </FooterLinksWrapper>
             </FooterLinksContainer>
             <SocialMedia>
-                <SocialMediawrap>
+                <SocialMediaWrap>
                     <SocialLogo to='/'>
                         EMG
                     </SocialLogo>
@@ -58,7 +59,7 @@ const Footer = () => {
                         <SocialIconLink href='//www.twitter.com' target='_blank' aria-label='Twitter'/>
                         <FaTwitter/>
                     </SocialIcons>
-                </SocialMediawrap>
+                </SocialMediaWrap>
             </SocialMedia>
         </FooterWrap>
     </FooterContainer>
