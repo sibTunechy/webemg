@@ -1,4 +1,5 @@
 import React from 'react';
+import { FooterContainer, FooterLinkTitle, FooterWrap, FooterLinksContainer, FooterLinkItems, FooterLinksWrapper, FooterLink } from './FooterElements';
 
 const Footer = () => {
   return (
@@ -7,41 +8,58 @@ const Footer = () => {
             <FooterLinksContainer>
                 <FooterLinksWrapper>
                     <FooterLinkItems>
-                        <FooterLinkTitle>About Us</FooterLinkTitle>
+                        <FooterLinkTitle>ABOUT US</FooterLinkTitle>
                             <FooterLink to='/about'>How it works</FooterLink>
                             <FooterLink to='/about'>Testimonials</FooterLink>
                             <FooterLink to='/about'>Careers</FooterLink>
                             <FooterLink to='/about'>Terms of Use</FooterLink>
                             <FooterLink to='/about'>Privacy Policy</FooterLink>                     
+                            <FooterLink to='/about'>Clients</FooterLink>                     
                     </FooterLinkItems>
                     <FooterLinkItems>
-                        <FooterLinkTitle>About Us</FooterLinkTitle>
-                            <FooterLink to='/about'>How it works</FooterLink>
-                            <FooterLink to='/about'>Testimonials</FooterLink>
-                            <FooterLink to='/about'>Careers</FooterLink>
-                            <FooterLink to='/about'>Terms of Use</FooterLink>
-                            <FooterLink to='/about'>Privacy Policy</FooterLink>                     
+                        <FooterLinkTitle>QUICK LINKS</FooterLinkTitle>
+                            <FooterLink to='/merchandise'>General Merchandise</FooterLink>
+                            <FooterLink to='/technology'>Digital Technology</FooterLink>
+                            <FooterLink to='/solutions'>Health Tech Solutions</FooterLink>
+                            <FooterLink to='/activations'>Brand Activations</FooterLink>
+                            <FooterLink to='/fleet'>Fleet Management</FooterLink>                     
+                            <FooterLink to='/estate'>Real Estate</FooterLink>                     
                     </FooterLinkItems>
                 </FooterLinksWrapper>
                 <FooterLinksWrapper>
                     <FooterLinkItems>
-                        <FooterLinkTitle>About Us</FooterLinkTitle>
-                            <FooterLink to='/about'>How it works</FooterLink>
-                            <FooterLink to='/about'>Testimonials</FooterLink>
-                            <FooterLink to='/about'>Careers</FooterLink>
-                            <FooterLink to='/about'>Terms of Use</FooterLink>
-                            <FooterLink to='/about'>Privacy Policy</FooterLink>                     
-                    </FooterLinkItems>
-                    <FooterLinkItems>
-                        <FooterLinkTitle>About Us</FooterLinkTitle>
-                            <FooterLink to='/about'>How it works</FooterLink>
-                            <FooterLink to='/about'>Testimonials</FooterLink>
-                            <FooterLink to='/about'>Careers</FooterLink>
-                            <FooterLink to='/about'>Terms of Use</FooterLink>
-                            <FooterLink to='/about'>Privacy Policy</FooterLink>                     
+                        <FooterLinkTitle>We are Social</FooterLinkTitle>
+                            <FooterLink to='/'>Facebook</FooterLink>
+                            <FooterLink to='/'>Instagram</FooterLink>
+                            <FooterLink to='/'>Youtube</FooterLink>
+                            <FooterLink to='/'>LinkedIn</FooterLink>
+                            <FooterLink to='/'>Twitter</FooterLink>                     
                     </FooterLinkItems>
                 </FooterLinksWrapper>
             </FooterLinksContainer>
+            <SocialMedia>
+                <SocialMediawrap>
+                    <SocialLogo to='/'>
+                        EMG
+                    </SocialLogo>
+                    <WebsiteRights>
+                        EMG {new Date().getFullYear()}
+                        All rights reserved.
+                    </WebsiteRights>
+                    <SocialIcons>
+                        <SocialIconLink href='/' target='_blank' aria-label='Facebook'/>
+                        <FaFacebook/>
+                        <SocialIconLink href='/' target='_blank' aria-label='Instagram'/>
+                        <FaInstagram/>
+                        <SocialIconLink href='/' target='_blank' aria-label='Youtube'/>
+                        <FaYoutube/>
+                        <SocialIconLink href='/' target='_blank' aria-label='LinkedIn'/>
+                        <FaLinkedIn/>
+                        <SocialIconLink href='//www.twitter.com' target='_blank' aria-label='Twitter'/>
+                        <FaTwitter/>
+                    </SocialIcons>
+                </SocialMediawrap>
+            </SocialMedia>
         </FooterWrap>
     </FooterContainer>
   )

@@ -60,3 +60,8 @@ export const FooterLink = styled(Link)`
         transition: 0.3s ease-out;
     }
 `;
+
+export const FooterLinkTitle =styled.h2`
+    font-size: 16px;
+    margin-bottom: 15px;
+`
