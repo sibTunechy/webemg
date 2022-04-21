@@ -95,7 +95,7 @@ export const SocialLogo = styled(Link)`
     font-weight: bold;
 `;
 
-export const Websiterights = styled.small`
+export const WebsiteRights = styled.small`
     color: #fff;
     margin-bottom: 16px;
 `;
