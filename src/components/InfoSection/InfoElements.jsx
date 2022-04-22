@@ -64,9 +64,11 @@ export const TopLine = styled.p`
 
 export const Heading = styled.h1`
     margin-bottom: 24px;
-    font-size: 35px;
-    line-height: 1.1;
+    font-size: 28px;
+    line-height: 1.3;
+    // margin-top: 3.5rem;
     font-weight: 600;
+    // word-spacing: 10px;
     color: ${({lightText}) => (lightText ? 'black' : '#010606')};
 
     @media screen and (max-width : 480px) {
