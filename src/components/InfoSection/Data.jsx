@@ -53,5 +53,7 @@ export const homeObjThree = {
 
 export const homeObjFour = {
     id: 'contact',
-
+    lightBg: 'false',
+    lightText: 'true',
+    
 };
