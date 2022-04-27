@@ -24,7 +24,6 @@ const Home = () => {
         <Services/>
         <InfoSection {...homeObjThree}/>
         <Footer/> 
-         {/* changes needed to generate */}
     </>
   )
 }
