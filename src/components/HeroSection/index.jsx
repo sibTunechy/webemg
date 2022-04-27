@@ -18,12 +18,12 @@ const HeroSection = () => {
         </HeroBg>
         <HeroContent>
             <HeroH1>Elizabeth Mattew Group</HeroH1>
-            {/* <HeroP>
-                Sign up for a new account on EMG and receive
-            </HeroP> */}
+            <HeroP>
+                Sign up for a new account on EMG
+            </HeroP>
             <HeroBtnWrapper>
                 <Button 
-                to='services' 
+                to='./joinus' 
                 onMouseEnter={onHover} 
                 onMouseLeave={onHover} 
                 primary='true' 
