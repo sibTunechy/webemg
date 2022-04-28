@@ -1,5 +1,6 @@
 import React, { useState} from 'react';
 import Video from '../../videos/video.mp4';
+import { Link as LinkA } from 'react-router-dom';
 import { Button } from '../ButtonElements';
 import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight} from './HeroElements';
 
@@ -22,8 +23,7 @@ const HeroSection = () => {
                 Sign up for a new account on EMG
             </HeroP>
             <HeroBtnWrapper>
-                <Button 
-                to='./joinus' 
+                <Button
                 onMouseEnter={onHover} 
                 onMouseLeave={onHover} 
                 primary='true' 
@@ -34,7 +34,7 @@ const HeroSection = () => {
                 exact='true' 
                 offset={-80} 
                     >
-                    Get Started {hover ? <ArrowForward/> : <ArrowRight/>}
+                    <LinkA to='/joinus'>Get Started</LinkA>{hover ? <ArrowForward/> : <ArrowRight/>}
                 </Button>
             </HeroBtnWrapper>
         </HeroContent>
