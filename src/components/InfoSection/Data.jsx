@@ -57,5 +57,3 @@ export const homeObjFour = {
     lightText: 'true',
     
 };
-
-// We deploy a hybrid of offline and online strategies to ensure intensive communication with stakeholders of our clients. We are currently engaged in various capacities with international and Local clients including Banks, FCMGs, Cooperate and Political Figures driving stakeholder engagement.
