@@ -101,4 +101,8 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
     font-size: 20px;
 `;
 
+export const Button = styled.button`
+    text-decoration: none;
+`;
+
 
