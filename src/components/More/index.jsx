@@ -1,5 +1,4 @@
-import React from 'react'
-import More from;
+import React from 'react';
 
 const More = () => {
   return (
