@@ -4,9 +4,9 @@ export const homeObjOne = {
     lightText: true,
     lightTextDesc: true,
     topLine: 'PURPOSE STATEMENT',
-    headline: 'EMG is a technology company focused on the use of data to drive consumer engagements for clients. We deploy a hybrid of offline and online strategies to ensure intensive communication with stakeholders of our clients. We are currently engaged in various capacities with international and Local clients including Banks, FCMGs, Cooperate and Political Figures driving stakeholder engagement.',
+    headline: 'EMG is a technology company focused on the use of data to drive consumer engagements for clients.',
     description: 'Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.',
-    buttonLabel: 'Get started',
+    buttonLabel: 'Learn More',
     imgStart: false,
     img: require('../../images/svg-9.png'),
     alt: 'People',
@@ -57,3 +57,5 @@ export const homeObjFour = {
     lightText: 'true',
     
 };
+
+// We deploy a hybrid of offline and online strategies to ensure intensive communication with stakeholders of our clients. We are currently engaged in various capacities with international and Local clients including Banks, FCMGs, Cooperate and Political Figures driving stakeholder engagement.
