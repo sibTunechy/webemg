@@ -25,4 +25,26 @@ export const SectionContent3 = styled.div`
 
 `;
 
-export const 
+export const heading = styled.h2`
+
+`;
+
+export const paragraph = styled.p`
+
+`;
+
+export const heading2 = styled.h2`
+
+`;
+
+export const paragraph2 = styled.p`
+
+`;
+
+export const heading3 = styled.h2`
+
+`;
+
+export const paragraph3 = styled.p`
+
+`;
