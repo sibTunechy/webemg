@@ -1,8 +1,9 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    background: darkgrey;
-    color: #fff;
+    background: red;
+    color: crimson;
+    display: grid;
 
     @media screen and (max-width: 768px) {
         padding: 100px 0;
