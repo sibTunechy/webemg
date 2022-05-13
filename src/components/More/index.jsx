@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, SectionWrap, SectionContent, SectionContent2, SectionContent3, Heading, Paragraph, Heading2, Paragraph2, Heading3, Paragraph3} from './MoreElements';
+import { Container, SectionWrap, SectionContent, SectionContent2, SectionContent3, Heading, Paragraph, Heading2, Paragraph2, Heading3, Paragraph3 } from './MoreElements';
 
 const More = () => {
   return (
