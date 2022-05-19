@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from '../ButtonElements';
-import { Link } from 'react-router-dom';
+import { Link as LinkD } from 'react-router-dom';
 import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img } from './InfoElements';
 
 
@@ -25,7 +25,10 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                                 primary={primary ? 1 : 0}
                                 dark={dark ? 1 : 0}
                                 dark2={dark2 ? 1 : 0}
-                                ><Link to='/moreinfo'>Learn More</Link></Button>
+                                ><p>Learn More</p>
+                                <LinkD to='/moreinfo'>
+                                </LinkD>
+                                </Button>
                             </BtnWrap>
                         </TextWrapper>
                     </Column1>

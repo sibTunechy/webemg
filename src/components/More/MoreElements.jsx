@@ -11,15 +11,17 @@ export const Container = styled.div`
 `;
 
 export const SectionWrap = styled.div`
-
+    border-style: solid;
 `;
 
 export const SectionContent = styled.div`
-
+    border-style: solid;
+    border-color: black                     
 `;
 
 export const SectionContent2 = styled.div`
-
+    border-style: dashed;
+    border-color: red;
 `;
 
 export const SectionContent3 = styled.div`
