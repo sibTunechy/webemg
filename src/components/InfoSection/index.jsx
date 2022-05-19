@@ -25,10 +25,11 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                                 primary={primary ? 1 : 0}
                                 dark={dark ? 1 : 0}
                                 dark2={dark2 ? 1 : 0}
-                                ><p>Learn More</p>
-                                <LinkD to='/moreinfo'>
+                                ><LinkD to='/moreinfo'>
+                                    Learn More
                                 </LinkD>
                                 </Button>
+                                <LinkD to='/moreinfo'>Learn</LinkD>
                             </BtnWrap>
                         </TextWrapper>
                     </Column1>
