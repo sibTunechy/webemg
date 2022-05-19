@@ -29,7 +29,6 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                                     Learn More
                                 </LinkD>
                                 </Button>
-                                <LinkD to='/moreinfo'>Learn</LinkD>
                             </BtnWrap>
                         </TextWrapper>
                     </Column1>
