@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    background-color: green;
+    // background-color: green;
+    background: ${({lightBg}) => (lightBg ? '#f9f9f9' : 'white')};
     opacity: 1;
-    // color: green;
+    color: green;
     // display: grid;
     height: 100%;
     width: 100%;
@@ -15,13 +16,24 @@ export const Container = styled.div`
 `;
 
 export const SectionWrap = styled.div`
-    padding-top: 0;
-    padding-bottom: 60px;
-    max-width: 540px;
+    // padding-top: 0;
+    // padding-bottom: 60px;
+    // max-width: 540px;
+    display: grid;
+    z-index: 1;
+    height: 860px;
+    width: 100%;
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 24px;
+    justify-content: center;
 `;
 
 export const SectionContent = styled.div`
-                       
+    max-width: 540px;
+    padding-top: 0;
+    padding-bottom: 60px;
 `;
 
 export const SectionContent2 = styled.div`
@@ -29,7 +41,7 @@ export const SectionContent2 = styled.div`
 `;
 
 export const SectionContent3 = styled.div`
-
+   
 `;
 
 export const Heading = styled.h1`
@@ -40,6 +52,7 @@ export const Heading = styled.h1`
     letter-spacing: 1.4px;
     text-transform: uppercase;
     margin-bottom: 16px;
+    padding-top: 20px;
 `;
 
 export const Paragraph = styled.p`
