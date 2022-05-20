@@ -2,13 +2,12 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     // background-color: green;
-    background: ${({lightBg}) => (lightBg ? '#f9f9f9' : 'white')};
+    // background: ${({lightBg}) => (lightBg ? '#f9f9f9' : 'white')};
     opacity: 1;
     color: green;
     // display: grid;
     height: 100%;
     width: 100%;
-    background-image: url('../../images/svg-12.png');
 
     @media screen and (max-width: 768px) {
         padding: 100px 0;
