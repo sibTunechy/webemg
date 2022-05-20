@@ -86,3 +86,11 @@ export const Heading3 = styled.h2`
 export const Paragraph3 = styled.p`
 
 `;
+
+export const ImgWrapper = styled.div`
+
+`;
+
+export const Img = styled.img`
+
+`;

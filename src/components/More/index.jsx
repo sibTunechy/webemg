@@ -1,23 +1,26 @@
 import React from 'react';
-import { Container, SectionWrap, SectionContent, SectionContent2, SectionContent3, Heading, Paragraph, Heading2, Paragraph2, Heading3, Paragraph3 } from './MoreElements';
+import { Container, SectionWrap, SectionContent, SectionContent2, SectionContent3, Heading, Paragraph, Heading2, Paragraph2, Heading3, Paragraph3, ImgWrapper, Img } from './MoreElements';
 
-const More = () => {
+const More = ({lightBg, id, imgStart, lightText, darkText, img, alt}) => {
   return (
     <>
-      <Container>
-        <SectionWrap>
+      <Container lightBg={lightBg} id={id}>
+        <SectionWrap imgStart={imgStart}>
           <SectionContent>
-              <Heading>Our Mission</Heading>
-              <Paragraph>We create Personalized, customer-centric experiences, the right technology and people with our solutions deployed across various channels to suit the demography of the target market and analyze the data from Our two-way engagement with the market for the strategic use of clients.</Paragraph>
+              <Heading lightText={lightText}>{Heading}</Heading>
+              <Paragraph darkText={darkText}>{Paragraph}</Paragraph>
           </SectionContent>
           <SectionContent2>
-              <Heading2>Execution</Heading2>
-              <Paragraph2>A strong drive to see things through to completion as quickly, efficiently, and effectively as possible. We believe in the time to see projects through from start to finish in order to get exceptional results.</Paragraph2>
+              <Heading2 lightText={lightText}>{Heading2}</Heading2>
+              <Paragraph2 darkText={darkText}>{Paragraph2}</Paragraph2>
           </SectionContent2>
           <SectionContent3>
-              <Heading3>Enterprise</Heading3>
-              <Paragraph3>Having the will and commitment to go to any length to complete a task. What differentiates us in a competitive business atmosphere is our individual and collective duty to own our goals and lead creative projects leading us to achieving them.</Paragraph3>
+              <Heading3 lightText={lightText}>{Heading3}</Heading3>
+              <Paragraph3 darkText={darkText}>{Paragraph3}</Paragraph3>
           </SectionContent3>
+          <ImgWrapper>
+              <Img src={img} alt={alt}/>
+          </ImgWrapper>
         </SectionWrap>
       </Container>
     </>
