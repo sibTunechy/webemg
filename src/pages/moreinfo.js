@@ -1,10 +1,11 @@
 import React from 'react';
 import More from '../components/More';
+import { moreData } from '../components/More/Moredata';
 
 const Moreinfo = () => {
   return (
     <>
-        <More/>
+        <More {...moreData}/>
     </>
   )
 }
