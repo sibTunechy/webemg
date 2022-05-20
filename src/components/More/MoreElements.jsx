@@ -32,10 +32,16 @@ export const InfoRow = styled.div`
     }
 `;
 
-export const column1 = styled.div`
+export const Column1 = styled.div`
     margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col1;
+`;
+
+export const Column2 = styled.div`
+    margin-bottom: 15px;
+    padding: 0 15px;
+    grid-area: col2;
 `;
 
 export const SectionContent = styled.div`
@@ -44,13 +50,13 @@ export const SectionContent = styled.div`
     padding-bottom: 60px;
 `;
 
-export const SectionContent2 = styled.div`
+// export const SectionContent2 = styled.div`
     
-`;
+// `;
 
-export const SectionContent3 = styled.div`
+// export const SectionContent3 = styled.div`
    
-`;
+// `;
 
 export const Heading = styled.h1`
     color: #01bf71;
@@ -64,7 +70,11 @@ export const Heading = styled.h1`
 `;
 
 export const Paragraph = styled.p`
-
+    max-width: 440px;
+    margin-bottom: 35px;
+    font-size: 18px;
+    line-height: 24px;
+    color: ${({darkText}) => (darkText ? 'black' : 'black')};
 `;
 
 export const Heading2 = styled.h2`
@@ -96,9 +106,12 @@ export const Paragraph3 = styled.p`
 `;
 
 export const ImgWrapper = styled.div`
-
+    max-width: 555px;
+    height: 100%;
 `;
 
 export const Img = styled.img`
-
+    width: 100%;
+    margin: 0 0 10px 0;
+    padding-right: 0;    
 `;
