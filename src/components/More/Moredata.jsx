@@ -10,7 +10,7 @@ export const moreData = {
     Paragraph2: 'A strong drive to see things through to completion as quickly, efficiently, and effectively as possible. We believe in the time to see projects through from start to finish in order to get exceptional results.',
     Paragraph3: 'Having the will and commitment to go to any length to complete a task. What differentiates us in a competitive business atmosphere is our individual and collective duty to own our goals and lead creative projects leading us to achieving them.',
     imgStart: false,
-    img: require('../../images/svg-12.png'),
+    // img: require('../../images/svg-12.png'),
     alt: 'People',
     dark: true,
     primary: true,
