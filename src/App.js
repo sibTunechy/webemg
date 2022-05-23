@@ -8,6 +8,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
 import Aboutus from './components/Aboutus';
+import Sidebar from './components/Sidebar';
 
 
 
@@ -21,6 +22,7 @@ function App() {
 
     return (
         <Router>
+            <Sidebar isOpen={isOpen} toggle={toggle}/>
             <Navbar toggle={toggle}/>
             <Routes>
                 <Route path='/' element={<Home/>}/>
