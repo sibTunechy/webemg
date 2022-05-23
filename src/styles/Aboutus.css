@@ -12,11 +12,18 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding-top: 20%;
-    
+    padding-top: 10%;
 }
 
-.about-container:before {
+.about-container h1 {
+    text-decoration:underline;
+    left: 30px;
+    color: green;
+    /* background-color: green; */
+}
+
+
+/* .about-container:before {
     content: '';
     position: absolute;
     top: 0;
@@ -32,7 +39,7 @@
     rgba(0, 0, 0, 0.2) 0%,
     transparent 100%);
     z-index: 2;
-}
+} */
 
 .mission-container {
 
