@@ -1,0 +1,44 @@
+.about-container {
+    border-color: green;
+    width: 100%;
+    height: 100%;
+    border: 2px solid red;
+
+}
+
+.mission-container {
+
+}
+
+.mission-container h2 {
+    font-weight: 400px;
+    
+}
+
+.mission-container p {
+    font-size: large;
+}
+
+.execution-container {
+
+}
+
+.execution-container h2 {
+    font-weight: 400px;
+}
+
+.execution-container p {
+    font-size: large;
+}
+
+.enterprise-container {
+
+}
+
+.enterprise-container h2 {
+    font-weight: 400px;
+}
+
+.enterprise-container p {
+    font-size: large;
+}

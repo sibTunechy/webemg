@@ -8,7 +8,7 @@ function Aboutus() {
             <h2>Our Mission</h2>
             <p>We create personalized, customer-centric experiences, the right technology and people with our solutions deployed across various channels to suit the demography of the target market and analyze the data from our two-way engagement with the market for the strategic use of clients.</p>
         </div>
-        <div className='execution-contasiner'>
+        <div className='execution-container'>
             <h2>Execution</h2>
             <p>A strong drive to see things through to completion as quickly, efficiently, and effectively as possible. We believe in the time to see projects through from start to finish in order to get exceptional results.</p>
         </div>
