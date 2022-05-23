@@ -7,6 +7,7 @@ import Moreinfo from './pages/moreinfo';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
+import Aboutus from './components/Aboutus';
 
 
 
@@ -26,6 +27,7 @@ function App() {
                 <Route path='/joinus' element={<JoinusPage/>}/>
                 <Route path='/moreinfo' element={<Moreinfo/>}/>
                 <Route path='/contact' element={<Contact/>}/>
+                <Route path='/aboutus' element={<Aboutus/>}/>
             </Routes>
             <Footer/>
         </Router>
