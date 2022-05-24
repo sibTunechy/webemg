@@ -4,8 +4,10 @@ import React from 'react';
 // import Navbar from '../components/Navbar';
 import HeroSection from '../components/HeroSection';
 import InfoSection from '../components/InfoSection';
+import InfoSectionC from '../components/InfoSectionC';
+import { homeObjTwo } from '../components/InfoSectionC/Data';
 import Services from '../components/Services';
-import { homeObjOne, homeObjThree, homeObjTwo } from '../components/InfoSection/Data';
+import { homeObjOne, homeObjThree } from '../components/InfoSection/Data';
 // import Footer from '../components/Footer';
 
 const Home = () => {
@@ -21,7 +23,8 @@ const Home = () => {
         {/* <Navbar toggle={toggle}/> */}
         <HeroSection/>
         <InfoSection {...homeObjOne}/> 
-        <InfoSection {...homeObjTwo}/>
+        {/* <InfoSection {...homeObjTwo}/> */}
+        <InfoSectionC {...homeObjTwo}/>
         <Services/>
         <InfoSection {...homeObjThree}/>
         {/* <Footer/>  */}
