@@ -50,7 +50,7 @@
 }
 
 .mission-container h2 {
-    font-weight: 400px;
+    font-weight: 500px;
     /* letter-spacing: 3px;
     line-height: 1.5; */
     
@@ -69,7 +69,7 @@
 }
 
 .execution-container h2 {
-    font-weight: 400px;
+    font-weight: 500px;
 }
 
 .execution-container p {
@@ -89,6 +89,22 @@
 }
 
 .enterprise-container p {
+    font-size: large;
+    padding-top: 10px;
+    text-shadow: 1px 1px 2px #01BF71;
+    letter-spacing: 1px;
+}
+
+.excellence-container {
+    padding: 30px 30px 30px 30px;
+}
+
+.excellence-container h2 {
+    font-weight: 500px;
+}
+
+
+.excellence-container p {
     font-size: large;
     padding-top: 10px;
     text-shadow: 1px 1px 2px #01BF71;
