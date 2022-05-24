@@ -12,18 +12,18 @@ const Services = () => {
         <ServicesWrapper>
             <ServicesCard>
                 <ServicesIcon src={Icon1}/>
-                <ServicesH2>Reduce expenses</ServicesH2>
-                <ServicesP>We help reduce your fees and increase your overall revenue</ServicesP>
+                <ServicesH2>Digital Technology</ServicesH2>
+                <ServicesP>Building Cloud Solutions and bridging the gap</ServicesP>
             </ServicesCard>
             <ServicesCard>
                 <ServicesIcon src={Icon2}/>
-                <ServicesH2>Virtual Offices</ServicesH2>
-                <ServicesP>You can access our platform online anywhere in the world</ServicesP>
+                <ServicesH2>Brand Activation</ServicesH2>
+                <ServicesP>We provide a memorable and dynamic brand experience</ServicesP>
             </ServicesCard>
             <ServicesCard>
                 <ServicesIcon src={Icon3}/>
-                <ServicesH2>Premium Benefits</ServicesH2>
-                <ServicesP>Unlock our special membership card returns a certain amount</ServicesP>
+                <ServicesH2>Fleet Management</ServicesH2>
+                <ServicesP>We build up structures and controls to run operations and maximize profit</ServicesP>
             </ServicesCard>
         </ServicesWrapper>
     </ServicesContainer>
