@@ -7,7 +7,9 @@ import InfoSection from '../components/InfoSection';
 import InfoSectionC from '../components/InfoSectionC';
 import { homeObjTwo } from '../components/InfoSectionC/Data';
 import Services from '../components/Services';
-import { homeObjOne, homeObjThree } from '../components/InfoSection/Data';
+import { homeObjOne, } from '../components/InfoSection/Data';
+import Discover from '../components/Discover';
+import { homeObjThree } from '../components/Discover/Data';
 // import Footer from '../components/Footer';
 
 const Home = () => {
@@ -26,7 +28,8 @@ const Home = () => {
         {/* <InfoSection {...homeObjTwo}/> */}
         <InfoSectionC {...homeObjTwo}/>
         <Services/>
-        <InfoSection {...homeObjThree}/>
+        <Discover {...homeObjThree}/>
+        {/* <InfoSection {...homeObjThree}/> */}
         {/* <Footer/>  */}
     </>
   )
