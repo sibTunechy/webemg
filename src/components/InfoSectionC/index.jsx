@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from '../ButtonElements';
-import { Link as LinkF } from 'react-router-dom';
+// import { Link as LinkF } from 'react-router-dom';
 import { InfoContain, InfoWrap, InfoRow, Column1, TextWrap, TopLine, Heading, Subtitle, BtnWrap, Column2, ImgWrap, Img} from './InfoSectionCElements';
 
 function InfoSectC({lightBg, id, imgStart,topLine, lightText, headline, darkText, description, buttonLabel, img, alt, primary, dark, dark2}) {
@@ -15,7 +15,7 @@ function InfoSectC({lightBg, id, imgStart,topLine, lightText, headline, darkText
                             <Heading lightText={lightText}>{headline}</Heading>
                             <Subtitle darkText={darkText}>{description}</Subtitle>
                             <BtnWrap>
-                                <Button 
+                                {/* <Button 
                                 smooth={true}
                                 duration={500}
                                 spy={true}
@@ -27,7 +27,7 @@ function InfoSectC({lightBg, id, imgStart,topLine, lightText, headline, darkText
                                 ><LinkF to='/'>
                                     More Links
                                 </LinkF>
-                                </Button>
+                                </Button> */}
                             </BtnWrap>
                         </TextWrap>
                     </Column1>
