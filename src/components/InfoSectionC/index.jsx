@@ -3,7 +3,7 @@ import { Button } from '../ButtonElements';
 import { Link as LinkF } from 'react-router-dom';
 import { InfoContain, InfoWrap, InfoRow, Column1, TextWrap, TopLine, Heading, Subtitle, BtnWrap, Column2, ImgWrap, Img} from './InfoSectionCElements';
 
-function InfoSectC({lightBg, id, imgStart,topLine, lightText, headLine, darkText, description, buttonLabel, img, alt, primary, dark, dark2}) {
+function InfoSectC({lightBg, id, imgStart,topLine, lightText, headline, darkText, description, buttonLabel, img, alt, primary, dark, dark2}) {
   return (
     <>
         <InfoContain lightBg={lightBg} id={id}>
@@ -12,7 +12,7 @@ function InfoSectC({lightBg, id, imgStart,topLine, lightText, headLine, darkText
                     <Column1>
                         <TextWrap>
                             <TopLine>{topLine}</TopLine>
-                            <Heading lightText={lightText}>{headLine}</Heading>
+                            <Heading lightText={lightText}>{headline}</Heading>
                             <Subtitle darkText={darkText}>{description}</Subtitle>
                             <BtnWrap>
                                 <Button 

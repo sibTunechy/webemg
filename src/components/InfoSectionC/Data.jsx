@@ -1,7 +1,7 @@
 export const homeObjTwo = {
     id: 'services',
     lightBg: true,
-    lightText: false,
+    lightText: true,
     lightTextDesc: false,
     topLine: 'OUR SERVICES',
     headline: 'EMG is a technology company focused on the use of data to drive consumer/stakeholder engagements for clients',
