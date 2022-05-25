@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from '../ButtonElements';
+// import { Button } from '../ButtonElements';
 // import { Link as LinkF } from 'react-router-dom';
 import { InfoContain, InfoWrap, InfoRow, Column1, TextWrap, TopLine, Heading, Subtitle, BtnWrap, Column2, ImgWrap, Img} from './InfoSectionCElements';
 
