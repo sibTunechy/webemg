@@ -1,16 +1,19 @@
 import React from 'react';
+import { Link as LinkE } from 'react-router-dom';
+import { Button } from '../ButtonElements';
+import { InfoCon, InfoWraps, InfoRows, Column1, TextWraps, TopLine, Heading, Subtitle, BtnWraps, Column2, ImgWraps, Img } from '../Discover/DiscoverElements';
 
-const Discover = () => {
+const Discover = ({lightBg, id, imgStart, topLine, lightText, headline, description, darkText, buttonLabel, img, alt, primary, dark, dark2}) => {
   return (
     <>
-        <InfoCon>
+        <InfoCon lightBg={lightBg} id={id}>
             <InfoWraps>
-                <InfoRows>
+                <InfoRows imgStart={imgStart}>
                     <Column1>
                         <TextWraps>
-                            <TopLine></TopLine>
-                            <Heading></Heading>
-                            <Subtitle></Subtitle>
+                            <TopLine>{topLine}</TopLine>
+                            <Heading lightText={lightText}>{headline}</Heading>
+                            <Subtitle darkText={darkText}>{description}</Subtitle>
                             <BtnWraps>
                                 <Button 
                                 smooth={true}
@@ -21,7 +24,7 @@ const Discover = () => {
                                 primary={primary ? 1 : 0}
                                 dark={dark ? 1 : 0}
                                 dark2={dark2 ? 1 : 0}
-                                ><LinkE to=''>
+                                ><LinkE to='/'>
                                     More
                                 </LinkE>
                                 </Button>
@@ -29,9 +32,9 @@ const Discover = () => {
                         </TextWraps>
                     </Column1>
                     <Column2>
-                        <Imgwraps>
+                        <ImgWraps>
                             <Img src={img} alt={alt}/>
-                        </Imgwraps>
+                        </ImgWraps>
                     </Column2>
                 </InfoRows>
             </InfoWraps>
