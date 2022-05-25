@@ -34,22 +34,22 @@ export const homeObjOne = {
 // };
 
 
-export const homeObjThree = {
-    id: 'discover',
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
-    topLine: 'ELIZABETH MATTEW GROUP',
-    headline: 'Unlimited Transactions with zero fees',
-    description: 'EMG is a technology company focused on the use of data to drive consumer/stakeholder engagements for clients.',
-    buttonLabel: 'Get started',
-    imgStart: true,
-    img: require('../../images/svg-2.png'),
-    alt: 'People',
-    dark: true,
-    primary: true,
-    darkText: false
-};
+// export const homeObjThree = {
+//     id: 'discover',
+//     lightBg: false,
+//     lightText: true,
+//     lightTextDesc: true,
+//     topLine: 'ELIZABETH MATTEW GROUP',
+//     headline: 'Unlimited Transactions with zero fees',
+//     description: 'EMG is a technology company focused on the use of data to drive consumer/stakeholder engagements for clients.',
+//     buttonLabel: 'Get started',
+//     imgStart: true,
+//     img: require('../../images/svg-2.png'),
+//     alt: 'People',
+//     dark: true,
+//     primary: true,
+//     darkText: false
+// };
 
 // export const homeObjFour = {
 //     id: 'contact',
