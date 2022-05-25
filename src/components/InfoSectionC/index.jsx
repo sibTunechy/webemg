@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from '../ButtonElements';
 import { Link as LinkF } from 'react-router-dom';
-import { InfoContain, InfoWrap, InfoRow, Column1, TextWrap, TopLine, Heading, Subtitle, BtnWrap} from './InfoSectionCElements';
+import { InfoContain, InfoWrap, InfoRow, Column1, TextWrap, TopLine, Heading, Subtitle, BtnWrap, Column2, ImgWrap, Img} from './InfoSectionCElements';
 
 function InfoSectC({lightBg, id, imgStart,topLine, lightText, headLine, darkText, description, buttonLabel, img, alt, primary, dark, dark2}) {
   return (
@@ -31,6 +31,11 @@ function InfoSectC({lightBg, id, imgStart,topLine, lightText, headLine, darkText
                             </BtnWrap>
                         </TextWrap>
                     </Column1>
+                    <Column2>
+                        <ImgWrap>
+                            <Img src={img} alt={alt}/>
+                        </ImgWrap>
+                    </Column2>
                 </InfoRow>
             </InfoWrap>
         </InfoContain>
