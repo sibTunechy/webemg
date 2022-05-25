@@ -1,13 +1,12 @@
-// import React from 'react';
-// import More from '../components/More';
-// import { moreData } from '../components/More/Moredata';
+import React from 'react';
+import More from '../components/More';
 
-// const Moreinfo = () => {
-//   return (
-//     <>
-//         <More {...moreData}/>
-//     </>
-//   )
-// }
+const Moreinfo = () => {
+  return (
+    <>
+        <More/>
+    </>
+  )
+}
 
-// export default Moreinfo;
+export default Moreinfo;

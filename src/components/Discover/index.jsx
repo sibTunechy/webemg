@@ -24,7 +24,7 @@ const Discover = ({lightBg, id, imgStart, topLine, lightText, headline, descript
                                 primary={primary ? 1 : 0}
                                 dark={dark ? 1 : 0}
                                 dark2={dark2 ? 1 : 0}
-                                ><LinkE to='/'>
+                                ><LinkE to='/moreinfo'>
                                     More
                                 </LinkE>
                                 </Button>
