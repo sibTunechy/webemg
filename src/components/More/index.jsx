@@ -8,7 +8,7 @@ const More = () => {
     <>
         <MoreContainer>
             <MoreBg>
-                <VideoBg autoplay loop muted src={Video} type='video/mp4'/>
+                <VideoBg autoPlay loop muted src={Video} type='video/mp4'/>
             </MoreBg>
             <MoreContent>
                 <MoreH1>General Merchandise</MoreH1>
