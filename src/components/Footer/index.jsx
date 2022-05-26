@@ -27,7 +27,7 @@ const Footer = () => {
                     <FooterLinkItems>
                         <FooterLinkTitle>QUICK LINKS</FooterLinkTitle>
                             <FooterLink to='/moreinfo'>General Merchandise</FooterLink>
-                            <FooterLink to='/technology'>Digital Technology</FooterLink>
+                            <FooterLink to='/digital'>Digital Technology</FooterLink>
                             <FooterLink to='/solutions'>Health Tech Solutions</FooterLink>
                             <FooterLink to='/activations'>Brand Activations</FooterLink>
                             <FooterLink to='/fleet'>Fleet Management</FooterLink>                     

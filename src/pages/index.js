@@ -7,9 +7,11 @@ import InfoSection from '../components/InfoSection';
 import InfoSectionC from '../components/InfoSectionC';
 import { homeObjTwo } from '../components/InfoSectionC/Data';
 import Services from '../components/Services';
-import { homeObjOne, } from '../components/InfoSection/Data';
+import { homeObjOne } from '../components/InfoSection/Data';
 import Discover from '../components/Discover';
 import { homeObjThree } from '../components/Discover/Data';
+// import Digital from '../components/DigitalPage';
+// import { digital } from '../components/DigitalPage/Data';
 // import Footer from '../components/Footer';
 
 const Home = () => {
@@ -29,6 +31,7 @@ const Home = () => {
         <InfoSectionC {...homeObjTwo}/>
         <Services/>
         <Discover {...homeObjThree}/>
+        {/* <Digital {...digital}/> */}
         {/* <InfoSection {...homeObjThree}/> */}
         {/* <Footer/>  */}
     </>

@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import Contact from './components/Contact';
 import Aboutus from './components/Aboutus';
 import Sidebar from './components/Sidebar';
+import Digital from './components/DigitalPage';
 
 
 
@@ -30,6 +31,7 @@ function App() {
                 <Route path='/moreinfo' element={<Moreinfo/>}/>
                 <Route path='/contact' element={<Contact/>}/>
                 <Route path='/aboutus' element={<Aboutus/>}/>
+                <Route path='/digital' element={<Digital/>} />
             </Routes>
             <Footer/>
         </Router>

@@ -2,7 +2,10 @@ import styled from 'styled-components';
 
 export const DigitalContainer = styled.div`
     color: #fff;
-    background-image: url('../../images/Blacksets.jpg');
+    background-image: url('../../images/PlantBulb.jpg');
+    background-color: green;
+    // make image the background//
+    
 
     @media screen and (max-width: 768px) {
         padding: 100px 0;
@@ -19,6 +22,7 @@ export const DigitalWrap = styled.div`
     margin-left: auto;
     padding: 0 24px;
     justify-content: center;
+    // border: 5px solid red;
 `;
 
 export const DigitalRows = styled.div`

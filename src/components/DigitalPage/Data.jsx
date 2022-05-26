@@ -1,5 +1,5 @@
 export const digital = {
-    id: 'digital',
+    id: '/digital',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
