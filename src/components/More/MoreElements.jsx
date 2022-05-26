@@ -73,15 +73,22 @@ export const MoreP = styled.p`
     color: #fff;
     font-size: 24px;
     text-align: center;
-    max-width: 600px;
-    line-height: 140%;
+    max-width: 900px;
+    line-height: 180%;
     text-shadow: 1px -1px;
+    // background-color: #01BF71;
 
     @media screen and (max-width: 768px) {
+        padding: 10px;
+        margin-top: 100px;
+        line-height: 140%;
         font-size: 24px;
     }
 
     @media screen and (max-width: 480px) {
+        padding: 10px;
+        margin-top: 100px;
+        line-height: 140%;
         font-size: 18px;
     }
 `;

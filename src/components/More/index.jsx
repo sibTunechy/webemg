@@ -1,6 +1,6 @@
 import React from 'react'
 import Video from '../../videos/cropvideo.mp4';
-import { MoreContainer, MoreBg, VideoBg, MoreContent, MoreH1, MoreP } from './MoreElements';
+import { MoreContainer, MoreBg, VideoBg, MoreContent,  MoreP } from './MoreElements';
 
 const More = () => {
 
