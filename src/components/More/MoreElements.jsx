@@ -68,11 +68,13 @@ export const MoreH1 = styled.h1`
 `;
 
 export const MoreP = styled.p`
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 24px;
     color: #fff;
     font-size: 24px;
     text-align: center;
     max-width: 600px;
+    line-height: 140%;
 
     @media screen and (max-width: 768px) {
         font-size: 24px;
