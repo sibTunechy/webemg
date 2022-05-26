@@ -75,6 +75,7 @@ export const MoreP = styled.p`
     text-align: center;
     max-width: 600px;
     line-height: 140%;
+    text-shadow: 1px -1px;
 
     @media screen and (max-width: 768px) {
         font-size: 24px;
