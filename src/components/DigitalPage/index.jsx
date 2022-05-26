@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { DigitalContainer, DigitalWrap, DigitalRows, Column1, Column2, DigitalImage, Img, DigitalText, TopLine, Heading, Subtitle  } from '../DigitalPage/DigitalElements';
 
 function Digital() {
   return (
