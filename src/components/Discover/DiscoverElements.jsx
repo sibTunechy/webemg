@@ -4,7 +4,7 @@ export const InfoCon = styled.div`
     color: #fff;
     background: ${({lightBg}) => (lightBg ? '#f9f9f9' : 'white')};
     
-    @media screen amd (max-width: 768px) {
+    @media screen and (max-width: 768px) {
         padding: 100px 0;
     }
 `;
