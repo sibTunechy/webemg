@@ -23,14 +23,6 @@ export const DigitalWrap = styled.div`
     margin-left: auto;
     padding:  24px;
     justify-content: center;
-    // z-index: 3;
-    // max-width: 1200px;
-    // position: absolute;
-    // padding: 8px 24px;
-    // display: flex;
-    // flex-direction: column;
-    // align-items: center;
-    // border: 5px solid red;
 `;
 
 export const TopLine = styled.div`
