@@ -7,10 +7,6 @@ export const DigitalContainer = styled.div`
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    // background-color: green;
-
-    // make image the background//
-    
 
     @media screen and (max-width: 768px) {
         padding: 100px 0;
@@ -34,37 +30,14 @@ export const DigitalWrap = styled.div`
     // display: flex;
     // flex-direction: column;
     // align-items: center;
-    border: 5px solid red;
+    // border: 5px solid red;
 `;
 
-// export const DigitalRows = styled.div`
-//     display: grid;
-//     grid-auto-columns: minmax(auto, 1fr);
-//     align-items: center;
-//     grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col1'`: `'col1 col2'`)};
-
-//     @media screen and (max-width: 768px) {
-//         grid-template-areas: ${({imgStart}) => (imgStart ? `'col1' 'col2'`: `'col1 col1' 'col2 col2'`)};
-//     }
+// export const DigitalText = styled.div`
+//     max-width: 540px;
+//     padding-top: 0;
+//     padding-bottom: 60px;
 // `;
-
-// export const Column1 = styled.div`
-//     margin-bottom: 15px;
-//     padding: 0 15px;
-//     grid-area: col1;
-// `;
-
-// export const Column2 = styled.div`
-//     margin-bottom: 15px;
-//     padding: 0 15px;
-//     grid-area: col2;
-// `;
-
-export const DigitalText = styled.div`
-    max-width: 540px;
-    padding-top: 0;
-    padding-bottom: 60px;
-`;
 
 export const TopLine = styled.div`
     color: #01bf71;
@@ -73,48 +46,41 @@ export const TopLine = styled.div`
     font-weight: 700;
     letter-spacing: 1.4px;
     text-transform: uppercase;
-    margin-bottom: 16px;
+    // margin-bottom: 16px;
+    text-align: center;
+    padding-top: 150px;
+    // margin-top: 30px;
+
+    @media screen and (max-width: 768px) {
+        padding: 10px;
+        margin-top: 100px;
+        line-height: 140%;
+    }
+
+    @media screen and (max-width: 480px) {
+        padding: 2px;
+        margin-top: 50px;
+        line-height: 140%;
+        font-size: 22px;
+    }
 `;
 
 export const Heading = styled.p`
     // font-family: Georgia, 'Times New Roman', Times, serif;
-    // margin-top: 24px;
-
-    // align text here
-
+    margin-top: -24px;
     text-align: center;
     font-size: 24px;
     max-width: 900px;
     line-height: 180%;
-    text-shadow: 1px -1px blue;
+    text-shadow: 1px -1px red;
     font-weight: 600;
-    color: ${({lightText}) => (lightText ? 'white' : 'white')};
+    color: #fff;
+    margin-bottom: 50px;
 
     @media screen and (max-width : 480px) {
-        font-size: 32px;
+        font-size: 22px;
+        padding: 10px;
+        margin-top: 100px;
+        line-height: 140%;
     }
 `;
-
-export const Subtitle = styled.p`
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-shadow: 1px 1px black;
-    max-width: 440px;
-    margin-bottom: 35px;
-    font-size: 28px;
-    line-height: 140%;
-    // justify-content: center;
-    // align-items: center;
-    // align-text: center;
-    color: ${({darkText}) => (darkText ? 'white' : 'white')};
-`;
-
-// export const DigitalImage = styled.div`
-//     max-width: 555px;
-//     height: 100%;
-// `;
-
-// export const Img = styled.img`
-//     width: 100%;
-//     margin: 0 0 10px 0;
-//     padding-right: 0;
-// `;
