@@ -33,12 +33,6 @@ export const DigitalWrap = styled.div`
     // border: 5px solid red;
 `;
 
-// export const DigitalText = styled.div`
-//     max-width: 540px;
-//     padding-top: 0;
-//     padding-bottom: 60px;
-// `;
-
 export const TopLine = styled.div`
     color: #01bf71;
     font-size: 25px;
@@ -54,14 +48,15 @@ export const TopLine = styled.div`
     @media screen and (max-width: 768px) {
         padding: 10px;
         margin-top: 100px;
-        line-height: 140%;
+        margin-bottom: 50px;
+        // line-height: 140%;
     }
 
     @media screen and (max-width: 480px) {
         padding: 2px;
         margin-top: 50px;
-        line-height: 140%;
-        font-size: 22px;
+        // line-height: 140%;
+        font-size: 25px;
     }
 `;
 
@@ -72,7 +67,7 @@ export const Heading = styled.p`
     font-size: 24px;
     max-width: 900px;
     line-height: 180%;
-    text-shadow: 1px -1px red;
+    text-shadow: 2px 2px green;
     font-weight: 600;
     color: #fff;
     margin-bottom: 50px;
@@ -80,7 +75,7 @@ export const Heading = styled.p`
     @media screen and (max-width : 480px) {
         font-size: 22px;
         padding: 10px;
-        margin-top: 100px;
+        margin-top: 20px;
         line-height: 140%;
     }
 `;
