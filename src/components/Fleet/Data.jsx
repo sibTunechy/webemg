@@ -4,7 +4,7 @@ export const fleetsObj = {
     lightText: true,
     lightTextDesc: true,
     imgStart: false,
-    img: require('../../images/housecars.png'),
+    img: require('../../images/Blacksets.jpg'),
     alt: 'cars',
     dark: true,
     primary: true,

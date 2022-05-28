@@ -42,9 +42,9 @@ export const Column1 = styled.div`
 `;
 
 export const Column2 = styled.div`
-    max-width: 540px;
-    padding-top: 0;
-    padding-bottom: 60px;
+    margin-bottom: 15px;
+    padding: 0 15px;
+    grid-area: col2;
     border: 5px solid green;
 `;
 
@@ -63,7 +63,8 @@ export const Fleetdetails = styled.p`
     font-size: 28px;
     line-height: 1.3;
     font-weight: 600;
-    color: ${({lightText}) => (lightText ? 'black' : '#010606')};
+    // color: ${({lightText}) => (lightText ? 'black' : '#010606')};
+    color: black;
 
     @media screen and (max-width : 480px) {
         font-size: 32px;
@@ -80,4 +81,7 @@ export const Img = styled.img`
     width: 100%;
     margin: 0 0 10px 0;
     padding-right: 0;
+    border 5px dashed red;
 `;
+
+// correct the css of the borders
