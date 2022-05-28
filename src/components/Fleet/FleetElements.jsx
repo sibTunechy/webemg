@@ -38,14 +38,14 @@ export const Column1 = styled.div`
     margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col1;
-    border: 2px solid red;
+    border: 5px solid red;
 `;
 
 export const Column2 = styled.div`
     margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col2;
-    border: 5px solid green;
+    border: 10px solid green;
 `;
 
 export const FleetHead = styled.p`
@@ -56,6 +56,10 @@ export const FleetHead = styled.p`
     letter-spacing: 1.4px;
     text-transform: uppercase;
     margin-bottom: 16px;
+`;
+
+export const TextWrap = styled.div`
+    border: 2px solid black;
 `;
 
 export const Fleetdetails = styled.p`
@@ -74,7 +78,7 @@ export const Fleetdetails = styled.p`
 export const ImgWrap = styled.div`
     max-width: 555px;
     height: 100%;
-    border: 2px solid green;
+    border: 2px solid black;
 `;
 
 export const Img = styled.img`

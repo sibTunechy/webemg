@@ -31,18 +31,21 @@ export const InfoRows = styled.div`
     @media screen and (max-width: 768px) {
         grid-template-areas: ${({imgStart}) => (imgStart ? `'col1' 'col2'`: `'col1 col1' 'col2 col2'`)};
     }
+    border: 5px solid yellow;
 `;
 
 export const Column1 = styled.div`
     margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col1;
+    border: 5px solid red;
 `;
 
 export const Column2 = styled.div`
     margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col2;
+    border: 10px solid green;
 `;
 
 export const TextWraps = styled.div`
