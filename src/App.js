@@ -10,6 +10,7 @@ import Contact from './components/Contact';
 import Aboutus from './components/Aboutus';
 import Sidebar from './components/Sidebar';
 import Digital from './components/DigitalPage';
+import Fleet from './components/Fleet';
 
 
 
@@ -32,6 +33,7 @@ function App() {
                 <Route path='/contact' element={<Contact/>}/>
                 <Route path='/aboutus' element={<Aboutus/>}/>
                 <Route path='/digital' element={<Digital/>} />
+                <Route path='/fleetpage' element={<Fleet/>}/>
             </Routes>
             <Footer/>
         </Router>

@@ -2,11 +2,11 @@ import styled from 'styled-components';
 
 export const FleetContainer = styled.div`
     color: #fff;
-    background: ${({lightBg}) => (lightBg ? '#f9f9f9' : 'white')};
 
     @media screen and (max-width) {
         padding: 100px 0;
     }
+    border: 10px solid brown;
 `;
 
 export const FleetWrap = styled.div`
@@ -19,7 +19,7 @@ export const FleetWrap = styled.div`
     margin-left: auto;
     padding: 0 24px;
     justify-content: center;
-    border: 3px solid red;
+    border: 3px solid purple;
 `;
 
 export const FleetRows = styled.div`
@@ -31,6 +31,7 @@ export const FleetRows = styled.div`
     @media screen and (max-width: 768px) {
         grid-template-areas: ${({imgStart}) => (imgStart ? `'col1' 'col2'`: `'col1 col1' 'col2 col2'`)};
     }
+    border: 5px solid yellow;
 `;
 
 export const Column1 = styled.div`
@@ -44,7 +45,7 @@ export const Column2 = styled.div`
     max-width: 540px;
     padding-top: 0;
     padding-bottom: 60px;
-    border: 2px solid red;
+    border: 5px solid green;
 `;
 
 export const FleetHead = styled.p`
@@ -57,7 +58,7 @@ export const FleetHead = styled.p`
     margin-bottom: 16px;
 `;
 
-export const FleetDetails = styled.p`
+export const Fleetdetails = styled.p`
     margin-bottom: 24px;
     font-size: 28px;
     line-height: 1.3;
