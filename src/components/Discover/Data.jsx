@@ -8,7 +8,7 @@ export const homeObjThree = {
     description: 'Our main office is in Lagos,and we are active in the United States, Canada, United Kingdom, Ghana, South Africa and Kenya.',
     buttonLabel: 'Get started',
     imgStart: true,
-    img: require('../../images/svg-2.png'),
+    img: require('../../images/Blacksets.jpg'),
     alt: 'People',
     dark: true,
     primary: true,

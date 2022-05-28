@@ -52,7 +52,7 @@ export const TextWraps = styled.div`
     max-width: 540px;
     padding-top: 0;
     padding-bottom: 60px;
-    border: 2px solid green; 
+    border: 10px solid black; 
 `;
 
 export const TopLine = styled.div`
@@ -93,7 +93,7 @@ export const BtnWraps = styled.div`
 export const ImgWraps = styled.div`
     max-width: 555px;
     height: 100%;
-    border: 2px solid green;
+    border: 10px solid green;
 `;
 
 export const Img = styled.img`

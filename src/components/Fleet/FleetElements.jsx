@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const FleetContainer = styled.div`
-    color: #fff;
+    color: crimson;
+    background-color: crimson;
 
     @media screen and (max-width) {
         padding: 100px 0;
@@ -59,7 +60,10 @@ export const FleetHead = styled.p`
 `;
 
 export const TextWrap = styled.div`
-    border: 2px solid black;
+    max-width: 540px;
+    padding-top: 0;
+    padding-bottom: 60px;
+    border: 10px solid black;
 `;
 
 export const Fleetdetails = styled.p`
@@ -77,8 +81,9 @@ export const Fleetdetails = styled.p`
 
 export const ImgWrap = styled.div`
     max-width: 555px;
-    height: 100%;
-    border: 2px solid black;
+    height: 500px;
+    margin-bottom: 200px;
+    border: 10px solid black;
 `;
 
 export const Img = styled.img`
