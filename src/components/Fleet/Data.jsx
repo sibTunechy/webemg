@@ -3,6 +3,7 @@ export const fleetsObj = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
+    topLine: 'FLEET MANAGEMENT',
     imgStart: true,
     img: require('../../images/svg-2.png'),
     alt: 'cars',
