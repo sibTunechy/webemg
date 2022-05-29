@@ -2,7 +2,7 @@ import React from 'react';
 import { Button } from '../ButtonElements';
 import { FleetContainer, FleetWrap, TextWrap, FleetRows, Column1, FleetHead, Fleetdetails,Column2, ImgWrap, Heading, BtnWrap, Img } from '../Fleet/FleetElements';
 
-function Fleet({lightBg, id, imgStart, img, alt, dark, primary, darkText, lightText, topLine, headline, description, dark2, lightTextDesc}) {
+const Fleet = ({lightBg, id, imgStart, img, alt, dark, primary, darkText, lightText, topLine, headline, description, dark2, lightTextDesc}) => {
   return (
     <>
         <FleetContainer lightBg={lightBg} id={id}>

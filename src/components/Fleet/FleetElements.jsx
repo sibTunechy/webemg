@@ -59,6 +59,19 @@ export const FleetHead = styled.p`
     margin-bottom: 16px;
 `;
 
+export const Heading = styled.p`
+    margin-bottom: 24px;
+    font-size: 28px;
+    line-height: 1.3;
+    font-weight: 600;
+    color: ${({lightText}) => (lightText ? 'black': '#010606')};
+
+    @media screen and (max-width : 480px) {
+        font-size: 32px;
+    }
+`;
+
+
 export const TextWrap = styled.div`
     max-width: 540px;
     padding-top: 0;
@@ -79,7 +92,7 @@ export const Fleetdetails = styled.p`
     }
 `;
 
-export const BtnWraps = styled.div`
+export const BtnWrap = styled.div`
     display: flex;
     justify-content: flex-start;
 `
@@ -95,7 +108,7 @@ export const Img = styled.img`
     width: 100%;
     margin: 0 0 10px 0;
     padding-right: 0;
-    border 5px dashed red;
+    border: 5px dashed red;
 `;
 
 // correct the css of the borders
