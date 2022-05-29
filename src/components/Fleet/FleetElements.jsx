@@ -79,6 +79,11 @@ export const Fleetdetails = styled.p`
     }
 `;
 
+export const BtnWraps = styled.div`
+    display: flex;
+    justify-content: flex-start;
+`
+
 export const ImgWrap = styled.div`
     max-width: 555px;
     height: 500px;
