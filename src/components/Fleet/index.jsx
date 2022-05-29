@@ -1,8 +1,8 @@
 import React from 'react';
 import { Button } from '../ButtonElements';
-import { FleetContainer, FleetWrap, TextWrap, FleetRows, Column1, FleetHead, Fleetdetails,Column2, ImgWrap, Img } from '../Fleet/FleetElements';
+import { FleetContainer, FleetWrap, TextWrap, FleetRows, Column1, FleetHead, Fleetdetails,Column2, ImgWrap, Heading, BtnWrap, Img } from '../Fleet/FleetElements';
 
-function Fleet({lightBg, id, imgStart, img, alt, dark, primary, darkText, lightText, topLine, lightTextDesc}) {
+function Fleet({lightBg, id, imgStart, img, alt, dark, primary, darkText, lightText, topLine, headline, description, dark2, lightTextDesc}) {
   return (
     <>
         <FleetContainer lightBg={lightBg} id={id}>
@@ -11,7 +11,7 @@ function Fleet({lightBg, id, imgStart, img, alt, dark, primary, darkText, lightT
                     <Column1>
                         <TextWrap>
                             <FleetHead>{topLine}</FleetHead>
-                            <Heading lighText={lighText}>{headline}</Heading>
+                            <Heading lighText={lightText}>{headline}</Heading>
                             <Fleetdetails darkText={darkText}>{description}Whether it's a financial lease, an operations lease, or any other lease solution, we build up structures and controls to run fleet operations and maximize profit. We handle operations
                                 for your fleet using our innovative and professional employees, advanced technology, and pool of knowledge. To decrease theft and loss and improve operational efficiency, we identify, track and monitor
                                 the condition of your cars in real time.
