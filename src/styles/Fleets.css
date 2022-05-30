@@ -1,16 +1,23 @@
 .fleet-container {
     display: grid;
     grid-template-columns: auto auto;
+    padding: 20px;
+    background-color: cornflowerblue;
+    gap: 30px;
 }
 
 .fleet-column {
-    text-align: center;
+    justify-content: center;
     padding: 20px 0;
-    height: 500px;
+    height: 900px;
     border: 3px solid red;
+    margin: 50px;
+    background-image:image()
+    /* padding-bottom: 150px; */
 }
 
 .fleet-column2 {
-    height: 500px;
+    height: 1100px;
     border: 2px solid green;
+    margin: 50px;
 }
