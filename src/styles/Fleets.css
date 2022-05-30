@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: auto auto;
     padding: 50px;
-    background-color: black;
+    /* background-color: black; */
     gap: 10px;
 }
 
@@ -21,4 +21,22 @@
     height: 1000px;
     border: 2px solid green;
     margin: 50px;
+    width: 555px;
 }
+
+/* .fleet-column2 section {
+    width: 200px;
+    justify-content: center;
+    /* text-align: center; */
+*/
+
+.fleet-column2 h1 {
+    color: green;
+    text-align: center;
+}
+
+.fleet-column2 p {
+    text-align: center;
+    justify-content: center;
+    line-height: 1.7;
+} 
