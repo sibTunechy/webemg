@@ -1,23 +1,24 @@
 .fleet-container {
     display: grid;
     grid-template-columns: auto auto;
-    padding: 20px;
-    background-color: cornflowerblue;
-    gap: 30px;
+    padding: 50px;
+    background-color: black;
+    gap: 10px;
 }
 
 .fleet-column {
-    justify-content: center;
-    padding: 20px 0;
+    /* justify-content: center; */
+    padding: 50px 50px;
     height: 900px;
-    border: 3px solid red;
+    /* border: 3px solid red; */
+    background-image: url(../images/housecars.png);
     margin: 50px;
-    background-image:image()
-    /* padding-bottom: 150px; */
+    background-size: cover;
+    background-position: center;
 }
 
 .fleet-column2 {
-    height: 1100px;
+    height: 1000px;
     border: 2px solid green;
     margin: 50px;
 }
