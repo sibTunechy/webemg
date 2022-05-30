@@ -5,11 +5,6 @@
     gap: 30px;
     background-color: #01BF71;
 }
-/* @media (max-width: 768px) {
-    background-color:  ; 
-} */
-
-
 
 .fleet-column {
     background-image: url(../images/housecars.png);
@@ -39,7 +34,6 @@
     text-align: center;
     justify-content: center;
     margin-bottom: auto;
-
 }
 
 .fleet-column2 p {
@@ -53,3 +47,25 @@
     text-indent: 50px;
     color: #fff;
 } 
+
+/* media query */
+
+@media  (max-width : 768px) {
+    .fleet-container {
+        color: white;
+    }
+
+    .fleet-column {
+        /* margin-bottom: auto;
+        padding-bottom: 10px; */
+        border: 10px solid black;
+    }
+
+    .fleet-column2 {
+        line-height: 0.1;
+        font-size: 10px;
+        height: 50%;
+        margin: auto;
+        background-color: red;
+    }
+}
