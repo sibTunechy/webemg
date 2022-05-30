@@ -2,3 +2,15 @@
     display: grid;
     grid-template-columns: auto auto;
 }
+
+.fleet-column {
+    text-align: center;
+    padding: 20px 0;
+    height: 500px;
+    border: 3px solid red;
+}
+
+.fleet-column2 {
+    height: 500px;
+    border: 2px solid green;
+}
