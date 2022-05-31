@@ -53,12 +53,15 @@
 @media  (max-width : 768px) {
     .fleet-container {
         color: white;
+        
     }
 
     .fleet-column {
         /* margin-bottom: auto;
         padding-bottom: 10px; */
         border: 10px solid black;
+        padding: 50px 50px;
+        font-size: smaller;
     }
 
     .fleet-column2 {
