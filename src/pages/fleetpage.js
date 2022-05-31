@@ -1,6 +1,5 @@
 import React from 'react'
-import Fleets from '../components/Fleet'
-// import { fleetsObj } from '../components/Fleet/Data';
+import Fleets from '../components/Fleet';
 
 function Fleetpage() {
   return (
