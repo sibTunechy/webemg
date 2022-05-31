@@ -31,28 +31,24 @@ export const InfoRows = styled.div`
     @media screen and (max-width: 768px) {
         grid-template-areas: ${({imgStart}) => (imgStart ? `'col1' 'col2'`: `'col1 col1' 'col2 col2'`)};
     }
-    border: 5px solid yellow;
 `;
 
 export const Column1 = styled.div`
     margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col1;
-    border: 5px solid red;
 `;
 
 export const Column2 = styled.div`
     margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col2;
-    border: 10px solid green;
 `;
 
 export const TextWraps = styled.div`
     max-width: 540px;
     padding-top: 0;
-    padding-bottom: 60px;
-    border: 10px solid black; 
+    padding-bottom: 60px; 
 `;
 
 export const TopLine = styled.div`
@@ -93,13 +89,11 @@ export const BtnWraps = styled.div`
 export const ImgWraps = styled.div`
     max-width: 555px;
     height: 100%;
-    border: 10px solid green;
 `;
 
 export const Img = styled.img`
     width: 100%;
     margin: 0 0 10px 0;
     padding-right: 0;
-    border: 5px dashed red
 `;
 
