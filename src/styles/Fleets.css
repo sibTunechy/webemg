@@ -1,7 +1,7 @@
 .fleet-container {
     /* width: 100%; */
-    height: 100vh;
-    /* height: 800px; */
+    /* height: 100vh; */
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,41 +11,36 @@
 };
 
 .contain {
-    /* max-width: 1000px; */
+    max-width: 1000px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     grid-gap: 30px;
-    /* padding-bottom: 50px; */
-    /* margin: 0 auto; */
     margin-bottom: 50px;
     justify-content: center;
 }
 
 .fleet-column {
-    background-image: url(../images/moneycar.png);
+    background-image: url(../images/housecars.png);
     background-size: cover;
     background-position: center;
-    /* height: 100%; */
-    flex: 70%;
-    /* padding-top: 50px; */
-    /* margin-top: 100px; */
+    flex: 50%;
     margin-top: 80px;
     margin-left: 50px;
     margin-right: 50px;
-    height: 450px;
+    margin-bottom: 70px;
+    height: 800px;
     padding: 50px;
+    border: 5px solid red;
     /* width: 100%; */
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 };  
 
 .fleet-column2 {
-    /* margin-bottom: 100px; */
+    margin-bottom: 50px;
     margin-top: 100px;
     height: 80%;
-    flex: 30%;
-    /* display: flex; */
-    /* flex-direction: column; */
+    flex: 50%;
     justify-content: center;
     margin-right: 50px;
     margin-left: 50px;
@@ -68,13 +63,18 @@
     text-align: justify;
     text-indent: 50px;
     color: #fff;
+    margin-bottom: 50px;
 } 
 
 /* media query */
 
-@media (max-width: 1500px) {
+/* @media (max-width: 1500px) {
     .fleet-container {
-        height: 700px;
+        height: 1500px;
+        padding-top: 50px;
+    }
+    .fleet-column2 p {
+        font-size: 5px;
     }
 }
 
@@ -97,26 +97,26 @@
         height: 1200px;
         padding-top: 50px;
 
-    }
+    } */
 
-    .fleet-column {
+    /* .fleet-column { */
         /* margin-bottom: auto;
         padding-bottom: 10px; */
         /* border: 10px solid black;
         padding: 50px 50px;
         font-size: smaller; */
-    }
+    /* } */
 
-    .fleet-column2  p{
+    /* .fleet-column2  p{
         line-height: 1.4;
-        font-size: 20px;
+        font-size: 20px; */
         /*height: 555px; */ 
         /* margin: auto; */
         /* background-color: red;
         padding: 20px 20px; */
 
-    }
-}
+    /* }
+} */
 /* 
 @media (min-width: 768px) {
     .fleet-container {
