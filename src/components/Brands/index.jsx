@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../styles/Brand.css';
 
 function Brand() {
   return (
