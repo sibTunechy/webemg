@@ -29,7 +29,7 @@ const Footer = () => {
                             <FooterLink to='/moreinfo'>General Merchandise</FooterLink>
                             <FooterLink to='/digital'>Digital Technology</FooterLink>
                             <FooterLink to='/solutions'>Health Tech Solutions</FooterLink>
-                            <FooterLink to='/activations'>Brand Activations</FooterLink>
+                            <FooterLink to='/brandpage'>Brand Activations</FooterLink>
                             <FooterLink to='/fleetpage'>Fleet Management</FooterLink>                     
                             <FooterLink to='/estate'>Real Estate</FooterLink>                     
                     </FooterLinkItems>
