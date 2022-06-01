@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../styles/Brand.css';
+import { Description } from '../Brands/BrandElements';
 
 const Brand= () => {
   return (
@@ -8,6 +9,7 @@ const Brand= () => {
             <div className='brand-wrap'>
                 <div className='details'>
                   <h1>BRAND ACTIVATION</h1>
+                  <p>{Description}</p>
                 </div>
             </div>
         </div>   
