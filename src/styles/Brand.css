@@ -26,45 +26,15 @@
 }; */
 
 .brand-wrap {
-    /* display: grid;
-    z-index: 1;
-    height: 860px;
-    width: 100%;
-    max-width: 1500px;
-    margin-right: auto;
-    margin-left: auto;
-    padding:  24px;
-    justify-content: center; */
+    border: 5px solid red;
+    text-align: center;
+    justify-content: center;
 }
 
-
-.brand-wrap h1 {
-    /* color: #01BF71;
-    font-size: 25px;
-    line-height: 16px;
-    font-weight: 700;
-    letter-spacing: 1.4px;
-    text-align: center;
-    padding-top: 150px; */
-};
-
-/* .brand-wrap p { */
-    /* margin-top: -24px;
-    text-align: center;
-    font-size: 24px;
-    max-width: 900px;
-    line-height: 180%;
-    margin-bottom: 50px;
-    color: #fff;
-    text-shadow: 2px 2px green; */
-    /* font-size: 100px;
-    margin-top: 50px;
-} */
-
-.brand-details {
-    /* color: #fff; */
+/* .brand-details {
+    color: #fff; 
     border: 5px solid red;
     width: 500px;
-    /* display: flex; */
+    display: flex;
     text-align: center;
-}
+} */

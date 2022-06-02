@@ -4,7 +4,7 @@ import '../../styles/Brand.css';
 const Brand= () => {
   return (
     <>
-        <div className='brand-contaner'>
+        <div className='brand-container'>
             <div className='brand-wrap'>
                 <div className='brand-details'>
                   <h1>BRAND ACTIVATION</h1>
