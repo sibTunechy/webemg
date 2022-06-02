@@ -1,5 +1,5 @@
 .brand-container {
-    background-image: url(../images/whitelappy.jpg);
+    background-image: url(../images/blackbggreen.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -44,7 +44,7 @@
 }
 
 .brand-wrap p {
-    color: black;
+    color: #fff;
     font-size: 24px;
     text-align: center;
     /* width: 1100px; */
@@ -53,7 +53,7 @@
     text-shadow: 2px -1px;
 }
 
-/* Brand media query */
+/* media query */
 @media (max-width: 1200px) {
     .brand-wrap {
         max-width: 1100px;
