@@ -29,8 +29,28 @@
     border: 5px solid red;
     text-align: center;
     justify-content: center;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    padding: 8px 24px;
+    z-index: 3;
 }
 
+.brand-wrap h1 {
+    color: #01FB71;
+    font-size: 48px;
+    text-align: center;
+}
+
+.brand-wrap p {
+    color: #01FB71;
+    font-size: 24px;
+    text-align: center;
+    width: 900px;
+    line-height: 180%;
+    margin-top: 24px;
+    text-shadow: 1px -1px;
+}
 
 
 
