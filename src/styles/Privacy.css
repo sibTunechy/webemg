@@ -8,26 +8,29 @@
 .privacy-wrap {
     display: grid;
     text-align: center;
-    border: 5px solid red;
+    /* border: 5px solid red; */
     height: 70vh;
 }
 
 .privacy-head {
     /* border: 5px solid blue; */
     text-align: center;
-    padding: 25px;
-    margin-top: 100px;
+    padding-top: 25px;
+    margin-bottom: 80px;
     /* background-color: green; */
-    background-image: linear-gradient(to right, black, green);
-    height: 40%;
+    background-image: linear-gradient(to right, green, black);
+    height: 100%;
 }
 
 .privacy-head h1 {
     color: #fff;
+    margin-top: 80px;
 }
 
 .privacy-wrap p {
     font-size: 24px;
     color: green;
     text-shadow: 1px -1px black;
+    margin-top: 50px;
+    line-height: 1.9;
 }
