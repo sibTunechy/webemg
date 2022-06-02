@@ -1,6 +1,6 @@
 import React from 'react'
 import Video from '../../videos/cropvideo.mp4';
-import { MoreContainer, MoreBg, VideoBg, MoreContent,  MoreP } from './MoreElements';
+import { MoreContainer, MoreBg, VideoBg, MoreContent,  MoreP, MoreH1 } from './MoreElements';
 
 const More = () => {
 
@@ -11,7 +11,7 @@ const More = () => {
                 <VideoBg autoPlay loop muted src={Video} type='video/mp4'/>
             </MoreBg>
             <MoreContent>
-                {/* <MoreH1>General Merchandise</MoreH1> */}
+                <MoreH1>General Merchandise</MoreH1>
                 <MoreP>
                     Our Company serves in various capacities along the value chain stores, confectionary companies and juice companies in Africa and Globally. In Addition to the foregoing, and in order to strengthen our marketing and distribution capabilities, we have strategically partnered with distributors who serve all market niches across the country, as well as in the Nigerian Market.
                     Each Distribution Company has seperate staff and employees, including traveling salespeople, telemarketers, drivers warehouse personnel, accounting, data analysis/statistics and General Management.
