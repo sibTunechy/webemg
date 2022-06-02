@@ -12,6 +12,7 @@ import Sidebar from './components/Sidebar';
 import Digital from './components/DigitalPage';
 import Fleet from './components/Fleet';
 import Brand from './components/Brands';
+import Privacy from './components/Privacy';
 
 
 
@@ -36,6 +37,7 @@ function App() {
                 <Route path='/digital' element={<Digital/>} />
                 <Route path='/fleetpage' element={<Fleet/>}/>
                 <Route path='/brandpage' element={<Brand/>} />
+                <Route path='/privacypage' element={<Privacy/>} />
             </Routes>
             <Footer/>
         </Router>

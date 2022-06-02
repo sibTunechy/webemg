@@ -21,7 +21,7 @@ const Footer = () => {
                             <FooterLink to='/about'>Testimonials</FooterLink>
                             <FooterLink to='/about'>Careers</FooterLink>
                             <FooterLink to='/about'>Terms of Use</FooterLink>
-                            <FooterLink to='/about'>Privacy Policy</FooterLink>                     
+                            <FooterLink to='/privacypage'>Privacy Policy</FooterLink>                     
                             <FooterLink to='/about'>Clients</FooterLink>                     
                     </FooterLinkItems>
                     <FooterLinkItems>
