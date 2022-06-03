@@ -1,7 +1,8 @@
 import React, {useEffect, useState} from 'react';
 import { AiOutlineBars } from 'react-icons/ai'
-import { NavbarContainer, NavLogo, Nav, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink } from './NavbarElements';
+import { NavbarContainer, NavLogo, Nav, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink, Link } from './NavbarElements';
 import {animateScroll as scroll} from 'react-scroll';
+
 
 
 const Navbar = ({toggle}) => {
@@ -43,7 +44,7 @@ const Navbar = ({toggle}) => {
                     <NavLinks to='services'  smooth={true} duration={500} spy={true} exact='true' offset={-80} >Services</NavLinks>
                   </NavItem>
                   <NavItem>
-                    <NavLinks to='/contact'  smooth={true} duration={500} spy={true} exact='true' offset={-80} >Contact</NavLinks>
+                    <Link to='/contactpage'  smooth={true} duration={500} spy={true} exact='true' offset={-80} >Contact</Link>
                   </NavItem>
                   <NavItem>
                     <NavLinks to='discover'  smooth={true} duration={500} spy={true} exact='true' offset={-80} >Discover</NavLinks>

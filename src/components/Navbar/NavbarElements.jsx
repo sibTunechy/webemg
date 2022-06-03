@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { Link as LinkR } from 'react-router-dom';
+import { Link as LinkC } from 'react-router-dom';
 import { Link as LinkScroll} from 'react-scroll';
 
 export const Nav = styled.nav`
@@ -86,6 +87,20 @@ export const NavLinks = styled(LinkScroll)`
         border-bottom: 3px solid #01bf71;
     }
 `;
+
+export const Link = styled(LinkC)`
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    cursor: pointer;
+
+    &.active {
+        border-bottom: 3px solid #01bf71;
+    }
+`
 
 export const NavBtn = styled.nav`
     display: flex;
