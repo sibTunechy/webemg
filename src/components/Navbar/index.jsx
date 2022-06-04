@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import { AiOutlineBars } from 'react-icons/ai'
+import { AiOutlineBars } from 'react-icons/ai';
 import { NavbarContainer, NavLogo, Nav, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink, Link } from './NavbarElements';
 import {animateScroll as scroll} from 'react-scroll';
 
