@@ -8,3 +8,11 @@ const app = express();
 // bodyParser setup
 app.use(bodyParser.json({ limit: '30mb', extended: true }));
 app.use(bodyParser.urlencoded({ limit: '30mb', extended: true }));
+
+// cors
+app.use(cors());
+
+const CONNECTION_URL = 'mongodb+srv://EmgNew:emgpassword.@cluster0.doo3b.mongodb.net/?retryWrites=true&w=majority';
+const PORT = process.env.PORT || 5000;
+
+mongoose.connect(CONNECTION_URL, { useNewUrlParser: true });
