@@ -18,8 +18,8 @@ const Signin = () => {
                         <>
                         <Form action='#'>
                             <FormH1>{isSignup ? 'Sign Up' : 'Sign In'}</FormH1>
-                            <FormLabel htmlFor='for'>Email</FormLabel>
-                            <FormInput type='email' required/>
+                            <FormLabel htmlFor='for'>Firstname</FormLabel>
+                            <FormInput type='name' required/>
                             <FormLabel htmlFor='for'>Password</FormLabel>
                             <FormInput type='password' required />
                             <FormButton type='submit' onSubmit={handleSubmit}>Continue</FormButton>
