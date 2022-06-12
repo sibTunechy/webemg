@@ -9,7 +9,11 @@ const Auth = () => {
     const isSignup = false;
 
     const handleSubmit = () => {
-        
+
+    }
+
+    const handleChange = () => {
+
     }
 
   return (
@@ -20,7 +24,16 @@ const Auth = () => {
             </Avatar>
             <Typography variant='h5'>{isSignup ? 'Sign Up' : 'Sign In'}</Typography>
             <form className={classes.form} onSubmit={handleSubmit}>
-
+                <Grid container spacing={2}>
+                    {
+                        isSignup && (
+                            <>
+                                <TextField name='firstName' label='First Name' handleChange={handleChange} autoFocus xs={6} />
+                                <TextField name='firstName' label='First Name' handleChange={handleChange} autoFocus xs={6} />
+                            </>
+                        )
+                    }
+                </Grid>
             </form>
         </Paper>
     </Container>
