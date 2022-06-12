@@ -1,14 +1,16 @@
-import React from 'react';
+import React, {  useState } from 'react';
 import {Avatar, Button, Paper, Grid, Typography, Container} from '@material-ui/core';
 import LockOutlinedIcon from '@material-ui/icons/LockOutlinedIcon';
 import useStyles from './styles';
 import Input from './Input';
 
 const Auth = () => {
-
     const classes = useStyles();
+    const [showPassword, setShowPassword] = useState(false);
 
     const isSignup = false;
+
+    const handleShowPassword = () => setShowPassword ((prevShowPassword) => !prevShowPassword) //toggles the password on and off
 
     const handleSubmit = () => {
 
@@ -34,7 +36,7 @@ const Auth = () => {
                             </>
                         ) }
                         <Input  name='email' label='Email Address' handleChange={handleChange} type='email' />
-                        <Input name='password' label='Password' handleChange={handleChange} type='password' />
+                        <Input name='password' label='Password' handleChange={handleChange} type={showPassword ? 'text' : 'password'} handleShowPassword={handleShowPassword} /> 
                 </Grid>
             </form>
         </Paper>
