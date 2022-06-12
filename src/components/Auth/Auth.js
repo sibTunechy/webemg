@@ -2,8 +2,10 @@ import React from 'react';
 import {Avatar, Button, Paper, Grid, Typography, Container} from '@material-ui/core';
 import LockOutlinedIcon from '@material-ui/icons/LockOutlinedIcon';
 import useStyles from './styles';
+import Input from './Input';
 
 const Auth = () => {
+
     const classes = useStyles();
 
     const isSignup = false;
@@ -25,14 +27,14 @@ const Auth = () => {
             <Typography variant='h5'>{isSignup ? 'Sign Up' : 'Sign In'}</Typography>
             <form className={classes.form} onSubmit={handleSubmit}>
                 <Grid container spacing={2}>
-                    {
-                        isSignup && (
+                    { isSignup && (
                             <>
-                                <TextField name='firstName' label='First Name' handleChange={handleChange} autoFocus xs={6} />
-                                <TextField name='firstName' label='First Name' handleChange={handleChange} autoFocus xs={6} />
+                                <Input name='firstName' label='First Name' handleChange={handleChange} autoFocus half />
+                                <Input name='firstName' label='First Name' handleChange={handleChange} half />
                             </>
-                        )
-                    }
+                        ) }
+                        <Input  name='email' label='Email Address' handleChange={handleChange} type='email' />
+                        <Input name='password' label='Password' handleChange={handleChange} type='password' />
                 </Grid>
             </form>
         </Paper>
