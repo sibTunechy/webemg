@@ -7,21 +7,24 @@ import Icon from './icon';
 import useStyles from './styles';
 import Input from './Input';
 
+const initialState =  { firstName: '', lastName: '', password: '', confirmPassword: ''  }
 
 const Auth = () => {
     const classes = useStyles();
     const [showPassword, setShowPassword] = useState(false);
     const [isSignup, setIsSignup] = useState(false);
     // const isSignup = true;
+    const [formData, setFormData] = useState(initialState);
 
     const handleShowPassword = () => setShowPassword ((prevShowPassword) => !prevShowPassword);//toggles the password on and off
 
-    const handleSubmit = () => {
-
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        console.log(formData);
     };
 
-    const handleChange = () => {
-
+    const handleChange = (e) => {
+        setFormData({ ...formData, [e.target.name]: e.target.value })
     };
     const switchMode = () => {
         setIsSignup((prevIsSignup) => !prevIsSignup) // toggles show sign up on and off
@@ -49,7 +52,7 @@ const Auth = () => {
                     { isSignup && (
                             <>
                                 <Input name='firstName' label='First Name' handleChange={handleChange} autoFocus half />
-                                <Input name='firstName' label='First Name' handleChange={handleChange} half />
+                                <Input name='lastName' label='Last Name' handleChange={handleChange} half />
                             </>
                         ) }
                         <Input  name='email' label='Email Address' handleChange={handleChange} type='email' />
