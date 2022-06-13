@@ -8,17 +8,20 @@ const Auth = () => {
     const classes = useStyles();
     const [showPassword, setShowPassword] = useState(false);
 
-    const isSignup = false;
+    const isSignup = true;
 
-    const handleShowPassword = () => setShowPassword ((prevShowPassword) => !prevShowPassword) //toggles the password on and off
+    const handleShowPassword = () => setShowPassword ((prevShowPassword) => !prevShowPassword);//toggles the password on and off
 
     const handleSubmit = () => {
 
-    }
+    };
 
     const handleChange = () => {
 
-    }
+    };
+    const switchMode = () => {
+
+    };
 
   return (
     <Container component='main' maxWidth='xs'>
@@ -42,6 +45,13 @@ const Auth = () => {
                 <Button type='submit' fullWidth variant='contained' color='primary' className={classes.submit}>
                     { isSignup ? 'Sign Up' : 'Sign In' }
                 </Button>
+                <Grid container justify='flex-end'>
+                    <Grid item>
+                        <Button onClick={switchMode}>
+                            { isSignup ? 'Already have an account? Sign In' : "Don't have an account? Sign Up" }
+                        </Button>
+                    </Grid>
+                </Grid>
             </form>
         </Paper>
     </Container>
