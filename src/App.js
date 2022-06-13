@@ -13,7 +13,7 @@ import Digital from './components/DigitalPage';
 import Fleet from './components/Fleet';
 import Brand from './components/Brands';
 import Privacy from './components/Privacy';
-// import Auth from './components/Auth/Auth';
+import Auth from './components/Auth/Auth';
 
 
 function App() {
@@ -38,7 +38,7 @@ function App() {
                 <Route path='/fleetpage' element={<Fleet/>}/>
                 <Route path='/brandpage' element={<Brand/>} />
                 <Route path='/privacypage' element={<Privacy/>} />
-                {/* <Route path='auth' element={<Auth/>} /> */}
+                <Route path='auth' element={<Auth/>} />
             </Routes>
             <Footer/>
         </Router>

@@ -51,7 +51,7 @@ const Navbar = ({toggle}) => {
                   </NavItem>
                 </NavMenu>
                 <NavBtn>
-                  <NavBtnLink to='/joinus'>Join Us</NavBtnLink>
+                  <NavBtnLink to='/auth'>Join Us</NavBtnLink>
                 </NavBtn> 
             </NavbarContainer>
         </Nav> 
