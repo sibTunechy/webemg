@@ -2,8 +2,10 @@ import React, {  useState } from 'react';
 import {Avatar, Button, Paper, Grid, Typography, Container} from '@material-ui/core';
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import { GoogleLogin } from 'react-google-login';
+import Icon from './icon';
 import useStyles from './styles';
 import Input from './Input';
+
 
 const Auth = () => {
     const classes = useStyles();
@@ -23,6 +25,14 @@ const Auth = () => {
     const switchMode = () => {
         setIsSignup((prevIsSignup) => !prevIsSignup) // toggles show sign up on and off
         handleShowPassword(false);
+    };
+
+    const googleSuccess = (res) => {
+        console.log(res)
+    };
+
+    const googleFailure = () => {
+        console.log('Google Sign In was unsuccessful. Try Again Later');
     };
 
   return (
@@ -45,7 +55,7 @@ const Auth = () => {
                         { isSignup && <Input name='confirmPassword' label='Repeat Password' handleChange={handleChange} type='password' /> } 
                 </Grid>
                 <GoogleLogin
-                    clientId='GOOGLE ID'
+                    clientId='131223449683-odfm6p4vh9r9js47t2f48ms40gjtb9fk.apps.googleusercontent.com'
                     render={(renderProps) => (
                         <Button 
                         className={classes.googleButton}
@@ -58,7 +68,10 @@ const Auth = () => {
                         >
                             Google Sign In
                         </Button>
-                    )}      
+                    )}
+                    onSuccess={googleSuccess}
+                    onFailure={googleFailure}
+                    cookiePolicy='single_host_origin'    
                 />
                 <Button type='submit' fullWidth variant='contained' color='primary' className={classes.submit}>
                     { isSignup ? 'Sign Up' : 'Sign In' }
