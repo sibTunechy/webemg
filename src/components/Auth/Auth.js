@@ -1,6 +1,6 @@
 import React, {  useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import {Avatar, Button, Paper, Grid, Typography, Container} from '@material-ui/core';
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import { GoogleLogin } from 'react-google-login';
@@ -19,16 +19,16 @@ const Auth = () => {
     // const isSignup = true;
     const [formData, setFormData] = useState(initialState);
     const dispatch = useDispatch();
-    const history = useHistory();
+    const navigate = useNavigate();
     const handleShowPassword = () => setShowPassword ((prevShowPassword) => !prevShowPassword);//toggles the password on and off
 
     const handleSubmit = (e) => {
         e.preventDefault();
         
         if(isSignup) {
-            dispatch(signup(formData, history))
+            dispatch(signup(formData, navigate))
         } else {
-            dispatch(signin(formData, history))
+            dispatch(signin(formData, navigate))
         }
     };
 
