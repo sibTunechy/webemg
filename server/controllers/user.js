@@ -1,4 +1,3 @@
-import { Email } from '@material-ui/icons';
 import bcrypt from 'bycryptjs';
 import jwt from 'jsonwebtoken';
 
@@ -16,9 +15,11 @@ export const signin = async (res, req) => {
 
         if(!isPasswordCorrect) return res.status(404).json({message: 'Invalid credentials'});
 
-        
+        const token = jwt.sign({ email: existingUser.email, id: existingUser._id }, 'test', {expiresIn: '1h'});
+
+        res.status(200).json({result: existingUser, token})
     } catch (error) {
-        
+        res.status(500).json({message: 'Something went wrong'});
     }
 };
 
