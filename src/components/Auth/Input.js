@@ -12,7 +12,7 @@ const Input = ({name, handleChange, label, autoFocus, type, handleShowPassword, 
             required
             fullWidth
             label={label}
-            autofocus={autoFocus}
+            autoFocus={autoFocus}
             type={type}
             InputProps={name === 'password' ? {
                 endAdornment: (
