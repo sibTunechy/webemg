@@ -15,7 +15,7 @@ const initialState =  { firstName: '', lastName: '', password: '', confirmPasswo
 const Auth = () => {
     let navigate = useNavigate()
     if(localStorage){
-navigate('/')
+    navigate('/')
     }
     const classes = useStyles();
     const [showPassword, setShowPassword] = useState(false);
