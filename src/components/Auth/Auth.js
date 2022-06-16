@@ -13,13 +13,17 @@ import Input from './Input';
 const initialState =  { firstName: '', lastName: '', password: '', confirmPassword: ''  }
 
 const Auth = () => {
+    let navigate = useNavigate()
+    if(localStorage){
+navigate('/')
+    }
     const classes = useStyles();
     const [showPassword, setShowPassword] = useState(false);
     const [isSignup, setIsSignup] = useState(false);
     // const isSignup = true;
     const [formData, setFormData] = useState(initialState);
     const dispatch = useDispatch();
-    const navigate = useNavigate();
+
     const handleShowPassword = () => setShowPassword ((prevShowPassword) => !prevShowPassword);//toggles the password on and off
 
     const handleSubmit = (e) => {
