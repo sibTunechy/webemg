@@ -1,0 +1,9 @@
+.welcome-container {
+    background-color: green;
+
+}
+
+.welcome-container h1 {
+    color: white;
+    font-size: large;
+}
