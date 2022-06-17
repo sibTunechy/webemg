@@ -51,7 +51,7 @@ const Footer = () => {
                         EMG
                     </SocialLogo>
                     <WebsiteRights>
-                        EMG {new Date().getFullYear()}
+                        EMG &copy; {new Date().getFullYear()}.
                         All rights reserved.
                     </WebsiteRights>
                     <SocialIcons>

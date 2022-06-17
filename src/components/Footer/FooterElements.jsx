@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 
 export const FooterContainer = styled.footer`
     background-color: #101522;
+    // height: 50vh;
 `;
 
 export const FooterWrap = styled.div`
@@ -51,13 +52,13 @@ export const FooterLinkItems = styled.div`
 `;
 
 export const FooterLink = styled(Link)`
-    color: green;
+    color: white;
     text-decoration: none;
     margin-bottom: 0.5rem;
     font-size: 14px;
 
     &:hover {
-        color: white;
+        color: green;
         transition: 0.1s ease-in;
     }
 `;
@@ -97,8 +98,9 @@ export const SocialLogo = styled(Link)`
 `;
 
 export const WebsiteRights = styled.small`
-    color: #fff;
+    color: green;
     margin-bottom: 16px;
+    font-size: 1.6rem;
 `;
 
 export const SocialIcons = styled.div`
