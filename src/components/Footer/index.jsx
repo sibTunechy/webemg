@@ -17,12 +17,12 @@ const Footer = () => {
                 <FooterLinksWrapper>
                     <FooterLinkItems>
                         <FooterLinkTitle>ABOUT US</FooterLinkTitle>
-                            <FooterLink to='/about'>How it works</FooterLink>
-                            <FooterLink to='/about'>Testimonials</FooterLink>
-                            <FooterLink to='/about'>Careers</FooterLink>
-                            <FooterLink to='/about'>Terms of Use</FooterLink>
+                            {/* <FooterLink to='/about'>How it works</FooterLink> */}
+                            {/* <FooterLink to='/about'>Testimonials</FooterLink> */}
+                            {/* <FooterLink to='/about'>Careers</FooterLink> */}
+                            {/* <FooterLink to='/about'>Terms of Use</FooterLink> */}
                             <FooterLink to='/privacypage'>Privacy Policy</FooterLink>                     
-                            <FooterLink to='/about'>Clients</FooterLink>                     
+                            {/* <FooterLink to='/about'>Clients</FooterLink>                      */}
                     </FooterLinkItems>
                     <FooterLinkItems>
                         <FooterLinkTitle>QUICK LINKS</FooterLinkTitle>

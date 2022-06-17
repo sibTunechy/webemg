@@ -34,7 +34,7 @@ const HeroSection = () => {
                 exact='true' 
                 offset={-80} 
                     >
-                    <LinkA to='/joinus'>Get Started</LinkA>{hover ? <ArrowForward/> : <ArrowRight/>}
+                    <LinkA to='/auth'>Get Started</LinkA>{hover ? <ArrowForward/> : <ArrowRight/>}
                 </Button>
             </HeroBtnWrapper>
         </HeroContent>
