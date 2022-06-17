@@ -51,7 +51,7 @@ export const FooterLinkItems = styled.div`
 `;
 
 export const FooterLink = styled(Link)`
-    color: white;
+    color: green;
     text-decoration: none;
     margin-bottom: 0.5rem;
     font-size: 14px;
@@ -104,7 +104,8 @@ export const SocialIcons = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 240px; 
+    width: 240px;
+    color: green; 
 `;
 
 export const SocialIconLink = styled.a`
