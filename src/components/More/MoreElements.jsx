@@ -55,6 +55,12 @@ export const MoreContent = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 5px solid red;
+
+    // @media screen and (max-width: 480px) {
+    //     max-height: 30px;
+    //     padding-top: 100px;
+    // }
 `;
 
 export const MoreH1 = styled.h1`
