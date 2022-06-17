@@ -37,8 +37,8 @@ const Footer = () => {
                 <FooterLinksWrapper>
                     <FooterLinkItems>
                         <FooterLinkTitle>We are Social</FooterLinkTitle>
-                            <FooterLink to='/'>Facebook</FooterLink>
-                            <FooterLink to='/'>Instagram</FooterLink>
+                            <FooterLink to='/'><FaFacebook/> Facebook</FooterLink>
+                            <FooterLink to='/'><FaInstagram/> Instagram</FooterLink>
                             <FooterLink to='/'>Youtube</FooterLink>
                             <FooterLink to='/'>LinkedIn</FooterLink>
                             <FooterLink to='/'>Twitter</FooterLink>                     
@@ -55,10 +55,10 @@ const Footer = () => {
                         All rights reserved.
                     </WebsiteRights>
                     <SocialIcons>
-                        <SocialIconLink href='/' target='_blank' aria-label='Facebook'/>
-                        <FaFacebook/>
+                        {/* <SocialIconLink href='/' target='_blank' aria-label='Facebook'/> */}
+                        {/* <FaFacebook/> */}
                         <SocialIconLink href='/' target='_blank' aria-label='Instagram'/>
-                        <FaInstagram/>
+                        {/* <FaInstagram/> */}
                         <SocialIconLink href='/' target='_blank' aria-label='Youtube'/>
                         <FaYoutube/>
                         {/* <SocialIconLink href='/' target='_blank' aria-label='LinkedIn'/>
