@@ -1,6 +1,6 @@
 import React from 'react';
 import { FooterContainer, FooterLinkTitle, FooterWrap, FooterLinksContainer, FooterLinkItems, FooterLinksWrapper, FooterLink, SocialMedia, SocialMediaWrap, SocialLogo, WebsiteRights, SocialIcons, SocialIconLink } from './FooterElements';
-import {FaFacebook, FaInstagram,  FaYoutube, FaTwitter} from 'react-icons/fa';
+import {FaFacebook, FaInstagram,  FaYoutube, FaTwitter, FaLinkedin} from 'react-icons/fa';
 import {animateScroll as scroll} from 'react-scroll';
 
 
@@ -39,9 +39,9 @@ const Footer = () => {
                         <FooterLinkTitle>We are Social</FooterLinkTitle>
                             <FooterLink to='/'><FaFacebook/> Facebook</FooterLink>
                             <FooterLink to='/'><FaInstagram/> Instagram</FooterLink>
-                            <FooterLink to='/'>Youtube</FooterLink>
-                            <FooterLink to='/'>LinkedIn</FooterLink>
-                            <FooterLink to='/'>Twitter</FooterLink>                     
+                            <FooterLink to='/'><FaYoutube/> Youtube</FooterLink>
+                            <FooterLink to='/'><FaLinkedin/> LinkedIn</FooterLink>
+                            <FooterLink to='/'><FaTwitter/> Twitter</FooterLink>                     
                     </FooterLinkItems>
                 </FooterLinksWrapper>
             </FooterLinksContainer>
@@ -57,14 +57,14 @@ const Footer = () => {
                     <SocialIcons>
                         {/* <SocialIconLink href='/' target='_blank' aria-label='Facebook'/> */}
                         {/* <FaFacebook/> */}
-                        <SocialIconLink href='/' target='_blank' aria-label='Instagram'/>
+                        {/* <SocialIconLink href='/' target='_blank' aria-label='Instagram'/> */}
                         {/* <FaInstagram/> */}
-                        <SocialIconLink href='/' target='_blank' aria-label='Youtube'/>
-                        <FaYoutube/>
+                        {/* <SocialIconLink href='/' target='_blank' aria-label='Youtube'/> */}
+                        {/* <FaYoutube/> */}
                         {/* <SocialIconLink href='/' target='_blank' aria-label='LinkedIn'/>
                         <FaLinkedIn/> */}
-                        <SocialIconLink href='/www.twitter.com' target='_blank' aria-label='Twitter'/>
-                        <FaTwitter/>
+                        {/* <SocialIconLink href='/www.twitter.com' target='_blank' aria-label='Twitter'/> */}
+                        {/* <FaTwitter/> */}
                     </SocialIcons>
                 </SocialMediaWrap>
             </SocialMedia>
