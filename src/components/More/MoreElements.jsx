@@ -58,7 +58,13 @@ export const MoreContent = styled.div`
     border: 5px solid red;
 
     @media screen and (max-width: 650px) {
-        font-size: 8px;
+        // padding-top: 50px;
+        border: 5px solid black;
+        margin-top: 50px;
+        // margin-bottom: 50px;
+    }
+    @media screen and (max-width: 550px) {
+        border: 5px solid white;
     }
 
     @media screen and (max-width: 480px) {
@@ -72,6 +78,11 @@ export const MoreH1 = styled.h1`
     color: #fff;
     font-size: 48px;
     text-align: center;
+
+    @media screen and (max-width: 550px) {
+        font-size: 24px;
+        padding-top: 50px;
+    }
 
     @media screen and (max-width: 480px) {
         font-size: 20px;
@@ -96,6 +107,11 @@ export const MoreP = styled.p`
         line-height: 140%;
         font-size: 24px;
     }
+
+    @media screen and (max-width: 650px) {
+        font-size: 22px;
+    }
+    @med
 
     @media screen and (max-width: 480px) {
         // padding: 10px;
