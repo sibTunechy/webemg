@@ -55,22 +55,22 @@ export const MoreContent = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 5px solid red;
+    // border: 5px solid red;
 
     @media screen and (max-width: 650px) {
         // padding-top: 50px;
-        border: 5px solid black;
+        // border: 5px solid black;
         margin-top: 50px;
         // margin-bottom: 50px;
     }
-    @media screen and (max-width: 550px) {
-        border: 5px solid white;
-    }
+    // @media screen and (max-width: 550px) {
+    //     border: 5px solid white;
+    // }
 
     @media screen and (max-width: 480px) {
         // max-height: 30px;
         // padding-top: 100px;
-        border: 5px solid green;
+        // border: 5px solid green;
     }
 `;
 
@@ -78,6 +78,11 @@ export const MoreH1 = styled.h1`
     color: #fff;
     font-size: 48px;
     text-align: center;
+
+    @media screen and (max-width: 900px) {
+        font-size: 30px;
+        padding-top: 20px;
+    }
 
     @media screen and (max-width: 550px) {
         font-size: 24px;
@@ -101,6 +106,10 @@ export const MoreP = styled.p`
     text-shadow: 1px -1px;
     // background-color: #01BF71;
 
+    @media screen and (max-width: 900px) {
+        font-size: 22px;
+    }
+
     @media screen and (max-width: 768px) {
         // padding: 10px;
         // margin-top: 100px;
@@ -111,7 +120,9 @@ export const MoreP = styled.p`
     @media screen and (max-width: 650px) {
         font-size: 22px;
     }
-    @med
+    @media screen and (max-width: 550px) {
+        font-size: 20px;
+    }
 
     @media screen and (max-width: 480px) {
         // padding: 10px;
