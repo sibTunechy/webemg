@@ -120,3 +120,40 @@
     color: #fff;
     letter-spacing: 1px;
 }
+
+/* Responsiveness */
+@media screen and (max-width: 650px){ 
+        .excellence-container p {
+            font-size: 20px;
+        };
+}
+
+@media screen and (max-width: 650px) {
+    .enterprise-container p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .mission-container p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .execution-container p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .about-container p {
+        padding: auto;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .excellence-container {
+        padding-bottom: 50px;
+    }
+}
