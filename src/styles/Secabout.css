@@ -1,16 +1,32 @@
 .first-section {
-    background-color: white;
-    border: 5px solid red;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #010606;
+}
+
+.first-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 30px;
-    padding: 10px;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-gap: 16px;
+    padding: 0 50px;
 }
 
 .first-section-detail {
     border: 5px solid black;
+    margin-bottom: 15px;
+    padding: 0 15px;
+
 };
 
 .first-section-image {
     border: 5px solid green;
+    margin-bottom: 15px;
+    padding: 0 15px;
+    background-color: white;
 };
