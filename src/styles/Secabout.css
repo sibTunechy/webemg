@@ -1,4 +1,16 @@
 .first-section {
     background-color: white;
     border: 5px solid red;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 30px;
+    padding: 10px;
 }
+
+.first-section-detail {
+    border: 5px solid black;
+};
+
+.first-section-image {
+    border: 5px solid green;
+};

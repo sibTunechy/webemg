@@ -3,8 +3,7 @@ import React from 'react'
 const Secabout = () => {
   return (
     <>
-        <div className='first-section'>
-            <div className='first-container'>
+        <div className='first-section'>            
                 <div className='first-section-detail'>
                     <h2></h2>
 
@@ -13,7 +12,6 @@ const Secabout = () => {
                 <div className='first-section-image'>
 
                 </div>
-            </div>
         </div>
 
         <div className='second-section'>
