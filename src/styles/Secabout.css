@@ -13,7 +13,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr ;
     align-items: center;
-    grid-gap: 16px;
+    grid-gap: 150px;
     padding: 0 50px;
 }
 
@@ -24,13 +24,21 @@
     justify-content: flex-start;
     align-items: center;
     border-radius: 10px;
-    max-height: 340px;
-    padding: 50px; 
+    max-height: 500px;
+    padding: 50px;
+    font-size: 20px;
+    line-height: 1.5; 
 }
 
-/* .first-section-image {
-    border: 5px solid green;
-    margin-bottom: 15px;
-    padding: 0 15px;
-    background-color: white;
-}; */
+.first-section-image {
+    background: red;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    max-height: 500px;
+    padding: 50px;
+};
+
