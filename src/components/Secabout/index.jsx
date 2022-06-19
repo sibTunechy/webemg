@@ -7,12 +7,15 @@ const Secabout = () => {
         <div className='first-section'>
             <div className='first-wrapper'>            
                 <div className='first-section-detail'>
-                    <h2>Mission Statement</h2>
-
+                    <h2>Our Mission</h2>
+                    <p>We create personalized, customer-centric experiences, the right technology and people with our
+                        solutions deployed across various channels to suit the demography of the target market and analyze
+                        the data from Our two-way engagement with the market for strategic use of clients.
+                    </p>
                 </div>
                 <div className='first-section-image'>
-
-                </div>\
+                    
+                </div>
             </div>
         </div>
 
