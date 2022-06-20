@@ -5,16 +5,17 @@ const Secabout = () => {
   return (
     <>
         <div className='first-section'>
+            <h1>About Us</h1>
             <div className='first-wrapper'>            
                 <div className='first-section-detail'>
-                    <h2>Our Mission</h2>
+                    <h1>Our Mission</h1>
                     <p>We create personalized, customer-centric experiences, the right technology and people with our
                         solutions deployed across various channels to suit the demography of the target market and analyze
                         the data from Our two-way engagement with the market for strategic use of clients.
                     </p>
                 </div>
                 <div className='first-section-image'>
-                    
+
                 </div>
             </div>
         </div>

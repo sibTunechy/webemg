@@ -7,8 +7,13 @@
     background: green;
 }
 
+.first-section h1 {
+    padding-bottom: 50px;
+    color: white;
+}
+
 .first-wrapper {
-    max-width: 1000px;
+    max-width: 1300px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr ;
@@ -24,21 +29,28 @@
     justify-content: flex-start;
     align-items: center;
     border-radius: 10px;
-    max-height: 500px;
+    height: 500px;
     padding: 50px;
     font-size: 20px;
     line-height: 1.5; 
 }
 
+.first-section-detail h1 {
+    color: green;
+    text-decoration-line: overline; 
+}
+
 .first-section-image {
-    background: red;
-    
+    background-size: cover;
+    background-position: center;
+    /* background: red; */
+    background-image: url('../images/handcard.jpg');
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     border-radius: 10px;
-    max-height: 500px;
+    height: 500px;
     padding: 50px;
 };
 
