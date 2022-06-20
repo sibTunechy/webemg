@@ -31,8 +31,8 @@
     border-radius: 10px;
     height: 500px;
     padding: 50px;
-    font-size: 20px;
-    line-height: 1.5; 
+    font-size: 28px;
+    line-height: 1.6; 
 }
 
 .first-section-detail h1 {
@@ -54,3 +54,26 @@
     padding: 50px;
 };
 
+
+/* Responsiveness*/
+
+@media screen and (max-width: 768px) {
+    .first-section {
+        height: 1100px;
+    }
+    .first-section {
+        height: 1300px;
+    }
+};
+
+@media screen and (max-width : 1000px) {
+    .first-wrapper {
+        grid-template-columns: 1fr;
+    }
+};
+
+@media screen and (max-width: 768px) {
+    .first-wrapper {
+        padding: 0 20px;
+    }
+}
