@@ -66,8 +66,9 @@
 
 
 /* Responsiveness*/
-@media (max-width : 1000px) {
+@media screen and (max-width : 1000px) {
     .first-wrapper {
+        border: 5px solid red;
         grid-template-columns: 1fr;
         /* padding: 0 20px; */
     }
@@ -75,6 +76,7 @@
 
 @media screen and (max-width: 768px) {
     .first-section {
+        border: 5px solid black;
         height: 1100px;
     }
     .first-section {
@@ -83,22 +85,22 @@
 };
 
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     .first-wrapper {
         padding: 0 20px;
     }
 }
 
-@media screen and (max-width: 1250px) {
+@media (max-width: 1250px) {
     .first-section-detail {
         font-size: 20px;
     }
 }
 
-@media screen and (max-width: 900px) {
+@media (max-width: 900px) {
     .first-section-detail {
         font-size: 16px;
         margin: auto;
         /* line-height: 1.1; */
     }
-}
+};
