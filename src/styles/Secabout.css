@@ -5,11 +5,11 @@
 } */
 
 .first-section {
-    height: 1100px;
+    /* height: 1100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     background: green;
 };
 
@@ -19,17 +19,18 @@
 }
 
 .first-wrapper {
-    max-width: 1300px;
+    /* max-width: 1300px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     grid-gap: 150px;
-    padding: 0 50px;
+    padding: 0 50px; */
+    display: flex;
 }
 
 .first-section-detail {
-    background: #fff;
+    /* background: #fff;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -38,8 +39,7 @@
     height: 500px;
     padding: 50px;
     font-size: 23px;
-    line-height: 1.45;
-    /* box-sizing: border-box; */
+    line-height: 1.45; */
 
 }
 
@@ -50,36 +50,35 @@
 }
 
 .first-section-image {
-    background-size: cover;
-    background-position: center;
+    /* background-size: cover;
+    background-position: center; */
     /* background: red; */
     background-image: url('../images/handcard.jpg');
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     border-radius: 10px;
     height: 500px;
-    padding: 50px;
-    /* box-sizing: border-box; */
+    padding: 50px; */
 };
 
 
 /* Responsiveness*/
-@media (max-width : 1000px) {
+/* @media (max-width : 1000px) {
     .first-wrapper {
-        /* border: 5px solid red;
+        border: 5px solid red;
         grid-template-columns: 1fr;
-        padding: 0 20px; */
+        padding: 0 20px;
         display: flex;
         flex-direction: column;
     }
-    /* .first-section-detail {
+    .first-section-detail {
         order: 2;
-    } */
-};
+    }
+}; */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .first-section {
         border: 5px solid black;
         height: 1100px;
@@ -87,7 +86,7 @@
     .first-section {
         height: 1300px;
     }
-};
+}; */
 
 
 /* @media (max-width: 768px) {
