@@ -66,15 +66,15 @@
 
 
 /* Responsiveness*/
-@media screen and (max-width : 1000px) {
+/* @media (max-width : 1000px) {
     .first-wrapper {
         border: 5px solid red;
         grid-template-columns: 1fr;
-        /* padding: 0 20px; */
+        padding: 0 20px;
     }
-};
+}; */
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     .first-section {
         border: 5px solid black;
         height: 1100px;
@@ -94,6 +94,7 @@
 @media (max-width: 1250px) {
     .first-section-detail {
         font-size: 20px;
+        border: 10px solid red;
     }
 }
 
