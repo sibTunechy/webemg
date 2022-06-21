@@ -74,9 +74,9 @@
         display: flex;
         flex-direction: column;
     }
-    .first-section-detail {
+    /* .first-section-detail {
         order: 2;
-    }
+    } */
 };
 
 @media (max-width: 768px) {
