@@ -56,23 +56,29 @@
 
 .second-container {
     display: flex;
+    row-gap: 50px;
 }
 
 .second-section-detail {
     border: 3px solid red;
     max-height: 50rem;
     max-width: 50rem;
-    margin: 0 auto;
+    padding: 200px;
+    font-size: 23px;
+    line-height: 1.35;
+    border-radius: 10px;
+    
 }
 
 .second-section-image {
     border: 3px solid yellow;
     max-height: 50rem;
     max-width: 50rem;
-    padding: 50px;
+    padding: 200px;
+    
 }
 
-@media(max-width: 700px) {
+@media(max-width: 950px) {
     .second-container {
         display: grid;
     }
