@@ -3,9 +3,11 @@
     margin: 0;
     padding: 0;
 } */
-@media(min-width: 700px){
-    .first-wrapper {
 
+@media(max-width: 700px){
+    .first-wrapper {
+        border: 5px solid red;
+        flex-direction: column;
     }
 }
 
