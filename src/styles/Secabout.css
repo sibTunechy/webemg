@@ -1,4 +1,4 @@
-@media(min-width: 700px) {
+/* @media(min-width: 700px) {
     .first-section {
         background: white;
     }
@@ -52,9 +52,31 @@
     max-height: 70rem;
     max-width: 30rem;
     margin: 0 auto;
-};
+}; */
 
+.second-container {
+    display: flex;
+}
 
+.second-section-detail {
+    border: 3px solid red;
+    max-height: 50rem;
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+.second-section-image {
+    border: 3px solid yellow;
+    max-height: 50rem;
+    max-width: 50rem;
+    padding: 50px;
+}
+
+@media(max-width: 700px) {
+    .second-container {
+        display: grid;
+    }
+}
 
 
 

@@ -1,11 +1,11 @@
 import React from 'react';
 import '../../styles/Secabout.css';
-import {img as image2 } from '../../images/about.jpg';
+// import {img as image2 } from '../../images/about.jpg';
 
 const Secabout = () => {
   return (
     <>
-        <div className='first-section'>
+        {/* <div className='first-section'>
             <h1>About Us</h1>
             <div className='first-wrapper'>            
                 <div className='first-section-detail'>
@@ -19,7 +19,7 @@ const Secabout = () => {
                     
                 </div>
             </div>
-        </div>
+        </div> */}
 
         {/* <div className='second-section'> */}
         <div className='second-container'>
@@ -31,7 +31,10 @@ const Secabout = () => {
             </div>
 
             <div className='second-section-image'>
-                <image2/>
+            <h2>Excellence Statement</h2>
+                <p>Consistently delivering exceptional results. every employee's heart beat with the phrase of <em>Excellence</em>.
+                To provide measureable value to ur stakholders, we go above and beyond the ordinary. 
+                </p>
             </div>
         </div>
         {/* </div> */}
