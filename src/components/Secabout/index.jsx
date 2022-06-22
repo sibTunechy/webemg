@@ -15,7 +15,7 @@ const Secabout = () => {
                     </p>
                 </div>
                 <div className='first-section-image' style={{float:'left',width:'50%',height:'100%'}} >
-
+                    
                 </div>
             </div>
         </div>

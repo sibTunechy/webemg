@@ -27,6 +27,7 @@
     grid-gap: 150px;
     padding: 0 50px; */
     display: flex;
+    flex-direction: row;
 }
 
 .first-section-detail {
@@ -52,35 +53,37 @@
 }
 
 .first-section-image {
-    /* background-size: cover;
-    background-position: center; */
+    background-size: cover;
+    background-position: center;
     /* background: red; */
     background-image: url('../images/handcard.jpg');
-    /* display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: flex-start; */
     align-items: center;
-    border-radius: 10px;
-    height: 500px;
-    padding: 50px; */
+    /* border-radius: 10px; */
+    /* height: 500px; */
+    padding: 50px;
     border: 5px solid red;
     flex: 1;
+    height: 500px;
 };
 
 
 /* Responsiveness*/
-/* @media (max-width : 1000px) {
+@media (max-width : 1000px) {
     .first-wrapper {
-        border: 5px solid red;
+        /* border: 5px solid red;
         grid-template-columns: 1fr;
         padding: 0 20px;
+        display: flex; */
         display: flex;
         flex-direction: column;
     }
-    .first-section-detail {
+    /* .first-section-detail {
         order: 2;
-    }
-}; */
+    } */
+};
 
 /* @media (max-width: 768px) {
     .first-section {
