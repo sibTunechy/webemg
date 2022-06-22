@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../styles/Secabout.css';
+import {img as image2 } from '../../images/about.jpg';
 
 const Secabout = () => {
   return (
@@ -20,18 +21,20 @@ const Secabout = () => {
             </div>
         </div>
 
-        <div className='second-section'>
-            <div className='second-container'>
-                <div className='second-section-detail'>
-                    <h2>Excellense Statement</h2>
+        {/* <div className='second-section'> */}
+        <div className='second-container'>
+            <div className='second-section-detail'>
+                <h2>Excellence Statement</h2>
+                <p>Consistently delivering exceptional results. every employee's heart beat with the phrase of <em>Excellence</em>.
+                To provide measureable value to ur stakholders, we go above and beyond the ordinary. 
+                </p>
+            </div>
 
-                </div>
-
-                <div className='second-section-image'>
-
-                </div>
+            <div className='second-section-image'>
+                <image2/>
             </div>
         </div>
+        {/* </div> */}
 
         <div className='third-section'>
         <div className='third-container'>
