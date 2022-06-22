@@ -1,21 +1,15 @@
-/* *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-} */
-
 @media(max-width: 700px){
     .first-wrapper {
-        border: 5px solid red;
-        flex-direction: column;
+        /* border: 5px solid red; */
+    
     }
 }
 
 .first-section {
-    /* height: 1100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    /* height: 1100px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center;
     align-items: center; */
     background: green;
 };
@@ -26,32 +20,33 @@
 }
 
 .first-wrapper {
-    /* max-width: 1300px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    grid-gap: 150px;
-    padding: 0 50px; */
+    /* max-width: 1300px; */
+    /* margin: 0 auto; */
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr; */
+    /* align-items: center; */
+    grid-gap: 100px;
+    padding: 0 50px;
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     justify-content:space-between;
 }
 
 .first-section-detail {
-    /* background: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    background: #fff;
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: flex-start; */
     align-items: center;
     border-radius: 10px;
     height: 500px;
     padding: 50px;
-    font-size: 23px;
-    line-height: 1.45; */
+    font-size: 20px;
+    line-height: 1.35;
     border: 5px solid black;
     flex: 1;
     height: 500px;
+    margin: auto;
 }
 
 .first-section-detail h1 {
@@ -63,19 +58,38 @@
 .first-section-image {
     background-size: cover;
     background-position: center;
-    /* background: red; */
-    background-image: url('../images/handcard.jpg');
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: flex-start; */
+    background-image: url('../images/handcard.jpg');        
     align-items: center;
     /* border-radius: 10px; */
-    /* height: 500px; */
     padding: 50px;
     border: 5px solid red;
     flex: 1;
     height: 500px;
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Responsiveness*/
