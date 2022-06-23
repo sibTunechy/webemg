@@ -1,5 +1,6 @@
-import React from 'react'
+import React from 'react';
 import '../../styles/Thirdabout.css';
+// import logo from '../../images/priv.jpg';
 
 const Thirdabout = () => {
   return (
@@ -14,7 +15,7 @@ const Thirdabout = () => {
                     solutions deployed across various channels to suit the demography of the target market and analyze
                     the data from Our two-way engagement with the market for strategic use of clients.
                 </p>
-                <img alt=''/>
+                <img src={logo} alt='some pictures here'/>
             </div>
 
 
