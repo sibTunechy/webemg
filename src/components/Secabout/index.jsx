@@ -25,7 +25,9 @@ const Secabout = () => {
         <div className='second-container'>
             <div className='second-section-detail'>
                 <h2>Excellence Statement</h2>
-                <p>Consistently delivering exceptional results. every employee's heart beat with the phrase of <em>Excellence</em>.
+                <br></br>
+                <h3>Consistently delivering exceptional results.</h3>
+                <p>Every employee's heart beat with the phrase of <em>Excellence</em>.
                 To provide measureable value to ur stakholders, we go above and beyond the ordinary. 
                 </p>
             </div>
