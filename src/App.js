@@ -16,6 +16,7 @@ import Privacy from './components/Privacy';
 import Auth from './components/Auth/Auth';
 import Welcome from './components/Welcome';
 import Secabout from './components/Secabout';
+import Thirdabout from './components/Thirdabout';
 
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
                 <Route path='/auth' element={<Auth/>} />
                 <Route path='/welcome' element={<Welcome/>} />
                 <Route path='secondaboutpage' element={<Secabout/>} />
+                <Route path='thirdaboutpage' element={<Thirdabout/>} />
             </Routes>
             <Footer/>
         </Router>

@@ -3,7 +3,10 @@ import '../../styles/Thirdabout.css';
 
 const Thirdabout = () => {
   return (
-    <>
+    <>  
+        <div className='about-div'>
+            <h1>About Us</h1>
+        </div>
         <div className='row1-container'>
             <div className='box box-down cyan'>
                 <h2>Our Mission</h2>
@@ -33,7 +36,7 @@ const Thirdabout = () => {
         </div>
 
         <div className='row2-container'>
-            <div className='box-orange'>
+            <div className='box orange'>
                 <h2>Execution</h2>
                 <p>A strong drive to see things through to completion as quickly, efficiently, and effectively as possible. We believe in putting time
                     to see projects through from start to finish in order to get exceptional results.

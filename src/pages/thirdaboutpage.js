@@ -10,4 +10,4 @@ const thirdaboutpage = () => {
   )
 }
 
-export default thirdaboutpage
+export default thirdaboutpage;

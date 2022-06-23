@@ -54,6 +54,21 @@ h1:last-of-type {
     color: var(--grayishBlue);
 }
 
+.about-div {
+    width:100%;
+    background-color: black;
+    height: 180px;
+}
+
+.about-div h1 {
+    text-align: center;
+    color: green;
+    font-size: 50px;
+    padding-top: 100px;
+    text-decoration-line: overline;
+    text-decoration-style: solid; 
+}
+
 
 .box p {
     color: var(--grayishBlue);
