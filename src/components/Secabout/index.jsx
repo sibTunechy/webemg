@@ -5,7 +5,7 @@ import mainimage from '../../images/yellowBulb.jpg';
 const Secabout = () => {
   return (
     <>
-        {/* <div className='first-section'>
+        {/* <div className='first-section'> */}
             <h1>About Us</h1>
             <div className='first-wrapper'>            
                 <div className='first-section-detail'>
@@ -19,7 +19,7 @@ const Secabout = () => {
                     
                 </div>
             </div>
-        </div> */}
+        {/* </div> */}
 
         {/* <div className='second-section'> */}
         <div className='second-container'>
@@ -33,7 +33,7 @@ const Secabout = () => {
             </div>
 
             <div className='second-section-image'>
-                <img src={mainimage} height='500rem' width='600rem' alt='aboutimage'/>
+                {/* <img src={mainimage} height='500rem' width='600rem' alt='aboutimage'/> */}
             </div>
         </div>
         {/* </div> */}
