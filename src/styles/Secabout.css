@@ -58,7 +58,7 @@
     display: flex;
     gap: 80px;
     padding-top: 200px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     /* padding: 200px; */
     /* align-items: center; */
     /* justify-content: center; */
@@ -67,21 +67,21 @@
 .second-section-detail {
     /* border: 3px solid red; */
     max-height: 45rem;
-    max-width: 45rem;
+    width: 45rem;
     padding: 200px;
     font-size: 22px;
-    line-height: 1.35;
+    line-height: 1.1;
     border-radius: 10px;
     
 }
 
 .second-section-image {
-    background-size: cover;
-    background-position: center;
-    background-image: url('../images/platecard.jpg');
-    border: 3px solid yellow;
-    max-height: 45rem;
-    max-width: 50rem;
+    /* background-size: cover;
+    background-position: center; */
+    /* background-image: url('../images/blackbggreen.jpg'); */
+    /* border: 3px solid yellow; */
+    /* max-height: 45rem;
+    max-width: 50rem; */
     padding: 200px;
     
 }
