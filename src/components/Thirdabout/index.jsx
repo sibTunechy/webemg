@@ -15,7 +15,7 @@ const Thirdabout = () => {
                     solutions deployed across various channels to suit the demography of the target market and analyze
                     the data from Our two-way engagement with the market for strategic use of clients.
                 </p>
-                <img src={logo} alt='some pictures here'/>
+                <img src='https://assets.codepen.io/2301174/icon-team-builder.svg' alt=''/>
             </div>
 
 
@@ -24,7 +24,7 @@ const Thirdabout = () => {
                 <p>Consistently delivering exceptional results Every employee's heart beat with the phrase of <em>Excellence</em>.
                     To provide measureable value to ur stakholders, we go above and beyond the ordinary.
                 </p>
-                <img alt=''/>
+                <img src='https://assets.codepen.io/2301174/icon-karma.svg' alt=''/>
             </div>
 
             <div className='box box-down blue'>
