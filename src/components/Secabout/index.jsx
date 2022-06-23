@@ -31,10 +31,10 @@ const Secabout = () => {
             </div>
 
             <div className='second-section-image'>
-            <h2>Excellence Statement</h2>
-                <p>Consistently delivering exceptional results. every employee's heart beat with the phrase of <em>Excellence</em>.
+            {/* <h2>Excellence Statement</h2> */}
+                {/* <p>Consistently delivering exceptional results. every employee's heart beat with the phrase of <em>Excellence</em>.
                 To provide measureable value to ur stakholders, we go above and beyond the ordinary. 
-                </p>
+                </p> */}
             </div>
         </div>
         {/* </div> */}

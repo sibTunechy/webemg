@@ -65,14 +65,13 @@
 }
 
 .second-section-detail {
-    border: 3px solid red;
+    /* border: 3px solid red; */
     max-height: 45rem;
     max-width: 45rem;
     padding: 200px;
-    font-size: 23px;
+    font-size: 22px;
     line-height: 1.35;
     border-radius: 10px;
-    margin: 50px auto;
     
 }
 
