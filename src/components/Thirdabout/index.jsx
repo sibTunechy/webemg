@@ -32,7 +32,7 @@ const Thirdabout = () => {
                 <p>Having the will and commitment to go any length to complete a task. What differentaites us in a competetitive business at
                     atmosphere is our individual and collective duty to own our goals and lead creative projects leading us to achieving them.
                 </p>
-                <img alt=''/>
+                <img src='https://assets.codepen.io/2301174/icon-supervisor.svg' alt=''/>
             </div>
         </div>
 
@@ -42,6 +42,7 @@ const Thirdabout = () => {
                 <p>A strong drive to see things through to completion as quickly, efficiently, and effectively as possible. We believe in putting time
                     to see projects through from start to finish in order to get exceptional results.
                 </p>
+                <img src='https://assets.codepen.io/2301174/icon-calculator.svg' alt='' />
             </div>
         
         </div> 
