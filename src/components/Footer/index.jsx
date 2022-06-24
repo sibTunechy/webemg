@@ -20,9 +20,9 @@ const Footer = () => {
                             {/* <FooterLink to='/about'>How it works</FooterLink> */}
                             {/* <FooterLink to='/about'>Testimonials</FooterLink> */}
                             {/* <FooterLink to='/about'>Careers</FooterLink> */}
-                            <FooterLink to='/thirdaboutpage'>Terms of Use</FooterLink>
+                            {/* <FooterLink to='/thirdaboutpage'>Terms of Use</FooterLink> */}
                             <FooterLink to='/privacypage'>Privacy Policy</FooterLink>                     
-                            <FooterLink to='/secondaboutpage'>Clients</FooterLink>                     
+                            {/* <FooterLink to='/secondaboutpage'>Clients</FooterLink>                      */}
                     </FooterLinkItems>
                     <FooterLinkItems>
                         <FooterLinkTitle>QUICK LINKS</FooterLinkTitle>

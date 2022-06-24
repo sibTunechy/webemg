@@ -2,7 +2,7 @@ import React from 'react';
 import Thirdabout from '../components/Thirdabout';
 
 
-const thirdaboutpage = () => {
+const aboutpage = () => {
   return (
     <>
         <Thirdabout/>
@@ -10,4 +10,4 @@ const thirdaboutpage = () => {
   )
 }
 
-export default thirdaboutpage;
+export default aboutpage;
