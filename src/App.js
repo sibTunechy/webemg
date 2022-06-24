@@ -7,7 +7,7 @@ import Moreinfo from './pages/moreinfo';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
-import Aboutus from './components/Aboutus';
+// import Aboutus from './components/Aboutus';
 import Sidebar from './components/Sidebar';
 import Digital from './components/DigitalPage';
 import Fleet from './components/Fleet';
@@ -15,7 +15,7 @@ import Brand from './components/Brands';
 import Privacy from './components/Privacy';
 import Auth from './components/Auth/Auth';
 import Welcome from './components/Welcome';
-import Secabout from './components/Secabout';
+// import Secabout from './components/Secabout';
 import Thirdabout from './components/Thirdabout';
 
 

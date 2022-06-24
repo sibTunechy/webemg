@@ -25,7 +25,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                                 primary={primary ? 1 : 0}
                                 dark={dark ? 1 : 0}
                                 dark2={dark2 ? 1 : 0}
-                                ><LinkD to='/thirdaboutpage'>
+                                ><LinkD to='/aboutpage'>
                                     Learn More
                                 </LinkD>
                                 </Button>
