@@ -4,7 +4,7 @@
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 700px;
+    height: 100%;
 }
 
 /* .brand-container:before {
@@ -29,16 +29,16 @@
     /* border: 5px solid black; */
     text-align: center;
     justify-content: center;
-    width: 1200px;
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
     padding: 100px 24px;
     z-index: 3;
-    margin-left: 200px;
+    margin-left: 125px;
 }
 
 .brand-wrap h1 {
-    color: #01FB71;
+    color: #01FB71 !important;
     font-size: 48px;
     text-align: center;
 }
@@ -60,7 +60,7 @@
         margin: auto;
     }
     .brand-wrap p {
-        font-size: 18px;
+        font-size: 22px;
         
     }
 }

@@ -75,7 +75,7 @@ export const MoreContent = styled.div`
 `;
 
 export const MoreH1 = styled.h1`
-    color: #fff;
+    color: #fff !important;
     font-size: 48px;
     text-align: center;
 
