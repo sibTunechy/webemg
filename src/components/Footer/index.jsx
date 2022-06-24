@@ -28,10 +28,10 @@ const Footer = () => {
                         <FooterLinkTitle>QUICK LINKS</FooterLinkTitle>
                             <FooterLink to='/moreinfo'>General Merchandise</FooterLink>
                             <FooterLink to='/digital'>Digital Technology</FooterLink>
-                            <FooterLink to='/solutions'>Health Tech Solutions</FooterLink>
+                            {/* <FooterLink to='/solutions'>Health Tech Solutions</FooterLink> */}
                             <FooterLink to='/brandpage'>Brand Activations</FooterLink>
                             <FooterLink to='/fleetpage'>Fleet Management</FooterLink>                     
-                            <FooterLink to='/estate'>Real Estate</FooterLink>                     
+                            {/* <FooterLink to='/estate'>Real Estate</FooterLink>                      */}
                     </FooterLinkItems>
                 </FooterLinksWrapper>
                 <FooterLinksWrapper>
