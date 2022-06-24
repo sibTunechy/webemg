@@ -23,7 +23,7 @@
 }
 
 .privacy-head h1 {
-    color: #fff;
+    color: #fff !important;
     margin-top: 80px;
 }
 

@@ -90,7 +90,7 @@ export const MoreH1 = styled.h1`
     }
 
     @media screen and (max-width: 480px) {
-        font-size: 20px;
+        font-size: 25px;
         padding-top: 50px;
     }
 `;
@@ -128,7 +128,7 @@ export const MoreP = styled.p`
         // padding: 10px;
         // margin-top: 100px;
         line-height: 140%;
-        font-size: 18px;
+        font-size: 19px;
     }
 `;
 
