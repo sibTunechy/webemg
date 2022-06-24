@@ -58,9 +58,8 @@ const Auth = () => {
   return (
     <>
     <div className='signin-top'>
-
     </div>
-    <Container component='main' maxWidth='xs'>
+    <Container component='main' maxWidth='sm'>
         <Paper className={classes.paper} elevation={3}>
             <Avatar className={classes.avatar}>
                 <LockOutlinedIcon/>
@@ -78,7 +77,7 @@ const Auth = () => {
                         <Input name='password' label='Password' handleChange={handleChange} type={showPassword ? 'text' : 'password'} handleShowPassword={handleShowPassword} />
                         { isSignup && <Input name='confirmPassword' label='Repeat Password' handleChange={handleChange} type='password' /> } 
                 </Grid>
-                <Button type='submit' fullWidth variant='contained' color='primary' className={classes.submit}>
+                <Button type='submit' fullWidth variant='contained' color='A400' className={classes.submit}>
                     { isSignup ? 'Sign Up' : 'Sign In' }
                 </Button>
                 <GoogleLogin
@@ -110,6 +109,8 @@ const Auth = () => {
             </form>
         </Paper>
     </Container>
+    {/* <div className='above-footer'>
+    </div> */}
     </>
   )
 }
