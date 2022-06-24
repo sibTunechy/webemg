@@ -8,6 +8,7 @@ import Icon from './icon';
 import { signin, signup } from '../../actions/auth';
 // import { GoogleLogin } from '@react-oauth/google';
 import useStyles from './styles';
+import '../../styles/Auth.css';
 import Input from './Input';
 
 const initialState =  { firstName: '', lastName: '', password: '', confirmPassword: ''  }
@@ -55,6 +56,10 @@ const Auth = () => {
     };
 
   return (
+    <>
+    <div className='signin-top'>
+
+    </div>
     <Container component='main' maxWidth='xs'>
         <Paper className={classes.paper} elevation={3}>
             <Avatar className={classes.avatar}>
@@ -105,6 +110,7 @@ const Auth = () => {
             </form>
         </Paper>
     </Container>
+    </>
   )
 }
 
