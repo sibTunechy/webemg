@@ -55,7 +55,7 @@ const Footer = () => {
                         All rights reserved.
                     </WebsiteRights>
                     <SocialIcons>
-                        {/* <SocialIconLink kkk href='/' target='_blank' aria-label='Facebook'/> */}
+                        {/* <SocialIconLink href='/' target='_blank' aria-label='Facebook'/> */}
                         {/* <FaFacebook/> */}
                         {/* <SocialIconLink href='/' target='_blank' aria-label='Instagram'/> */}
                         {/* <FaInstagram/> */}
