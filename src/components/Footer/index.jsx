@@ -63,7 +63,7 @@ const Footer = () => {
                         {/* <FaYoutube/> */}
                         {/* <SocialIconLink href='/' target='_blank' aria-label='LinkedIn'/>
                         <FaLinkedIn/> */}
-                        {/* <SocialIconLkkkkink href='/www.twitter.com' target='_blank' aria-label='Twitter'/> */}
+                        {/* <SocialIconLink href='/www.twitter.com' target='_blank' aria-label='Twitter'/> */}
                         {/* <FaTwitter/> */}
                     </SocialIcons>
                 </SocialMediaWrap>
