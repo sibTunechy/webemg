@@ -8,6 +8,8 @@ const brandpage = () => {
         <Brand/>
         <>
         </>
+        <>
+        </>
     </>
   )
 }
