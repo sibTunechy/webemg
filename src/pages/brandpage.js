@@ -6,7 +6,6 @@ const brandpage = () => {
   return (
     <>
         <Brand/>
-        <><><></>
     </>
   )
 }
