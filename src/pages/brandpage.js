@@ -7,7 +7,7 @@ const brandpage = () => {
     <>
         <Brand/>
         <></><>
-        </>
+      
     </>
   )
 }
