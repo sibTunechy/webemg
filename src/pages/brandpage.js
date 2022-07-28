@@ -6,9 +6,9 @@ const brandpage = () => {
   return (
     <>
         <Brand/>
-        <></>
+        <></><></>
     </>
-  )
+  );
 }
 
 export default brandpage;
