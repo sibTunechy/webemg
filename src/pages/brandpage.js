@@ -4,8 +4,7 @@ import Brand from '../components/Brands';
 
 const brandpage = () => {
   return (
-  
-      <Brand/>vbm
+      <Brand/>
   );
 }
 
