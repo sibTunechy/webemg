@@ -4,7 +4,7 @@ import Brand from '../components/Brands';
 
 const brandpage = () => {
   return (
-      <Brand/><><><>
+      <Brand/><><><</>
 };
 
 export default brandpage;
