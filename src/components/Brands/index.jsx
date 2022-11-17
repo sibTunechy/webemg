@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../styles/Brand.css';
 
-const Brand= () => {
+const Brand = () => {
   return (
     <>
         <div className='brand-container'>
