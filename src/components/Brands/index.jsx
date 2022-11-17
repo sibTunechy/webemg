@@ -8,6 +8,7 @@ const Brand= () => {
             <div className='brand-wrap'>                
                   <h1>Brand Activation</h1>
                   <p>
+                    
                     We provide a memorable, dynamic brand experience whenever a customer engages with our clients based in Nigeria,
                     ensuring brand affinity, loyalty, and sales growth. Our event-based marketing tactics are well
                     thought out and deployed in order to have a favorable impact on the customers 
