@@ -14,7 +14,7 @@ import {
 } from "./NavbarElements";
 import { animateScroll as scroll } from "react-scroll";
 import { useNavigate, useLocation } from "react-router-dom";
-import emg from ""
+import emg from "../../images/emg.png";
 // import { LOGOUT } from '../../constants/actionTypes';
 import decode from "jwt-decode";
 import { useDispatch } from "react-redux";
@@ -74,7 +74,7 @@ const handleLogout = ()=>{
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
           <NavLogo to="/" onClick={toggleHome}>
-            EMG
+            logo={emg}
           </NavLogo>
           <MobileIcon onClick={toggle}>
             <AiOutlineBars />
