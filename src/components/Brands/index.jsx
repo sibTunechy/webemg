@@ -14,8 +14,7 @@ const Brand= () => {
                     purchasing patterns. We use a tried-and-true strategy for evaluating experential programs, 
                     combining qualitative and quantitative techniques to determine the quantity of business 
                     potential created, as well as the influence on brand affinity, relationship impact, and 
-                    experience quality.
-                    <> 
+                    experience quality. 
                   </p>
             </div>
         </div>
