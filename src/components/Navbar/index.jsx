@@ -8,7 +8,6 @@ import {
   NavMenu,
   NavItem,
   NavLinks,
-  NavBtn,
   NavBtnLink,
   Link,
 } from "./NavbarElements";
@@ -74,7 +73,8 @@ const handleLogout = ()=>{
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
           <NavLogo to="/" onClick={toggleHome}>
-            logo={emg}
+           logo={emg}
+           {/* logoStyle-{{marginTop: '-5px', maxWidth: '100px', maxHeight: '45px'}} */}
           </NavLogo>
           <MobileIcon onClick={toggle}>
             <AiOutlineBars />
