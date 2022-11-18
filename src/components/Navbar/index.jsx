@@ -8,6 +8,7 @@ import {
   NavMenu,
   NavItem,
   NavLinks,
+  NavBtn,
   NavBtnLink,
   Link,
 } from "./NavbarElements";
