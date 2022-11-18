@@ -131,7 +131,7 @@ const handleLogout = ()=>{
                 exact="true"
                 offset={-80}
               >
-                
+                Discover
               </NavLinks>
             </NavItem>
           </NavMenu>
