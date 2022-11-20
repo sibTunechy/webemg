@@ -75,7 +75,6 @@ const handleLogout = ()=>{
         <NavbarContainer>
           <NavLogo to="/" onClick={toggleHome}>
            logo={emg}
-           {/* logoStyle-{{marginTop: '-5px', maxWidth: '100px', maxHeight: '45px'}} */}
           </NavLogo>
           <MobileIcon onClick={toggle}>
             <AiOutlineBars />
