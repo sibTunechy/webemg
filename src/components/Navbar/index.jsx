@@ -95,7 +95,7 @@ const handleLogout = ()=>{
                 exact="true"
                 offset={-80}
               >
-                Abo
+                About Us
               </NavLinks>
             </NavItem>
             <NavItem>
