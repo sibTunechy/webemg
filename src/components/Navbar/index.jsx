@@ -10,7 +10,7 @@ import {
   NavLinks,
   NavBtn,
   NavBtnLink,
-  Link,
+  Li,
 } from "./NavbarElements";
 import { animateScroll as scroll } from "react-scroll";
 import { useNavigate, useLocation } from "react-router-dom";
