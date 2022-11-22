@@ -106,7 +106,7 @@ const handleLogout = ()=>{
                 exact="true"
                 offset={-80}
               >
-                Serv
+                Services
               </NavLinks>
             </NavItem>
             <NavItem>
