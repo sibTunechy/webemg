@@ -80,7 +80,7 @@ const handleLogout = ()=>{
           <MobileIcon onClick={toggle}>
             <AiOutlineBars />
           </MobileIcon>
-          <NavM>
+          <NavMenu>
             <NavItem>
               <NavLinks to="/" onClick={toggleHome}>
                 Home
@@ -134,7 +134,7 @@ const handleLogout = ()=>{
                 Discover
               </NavLinks>
             </NavItem>
-          </NavM>
+          </NavMenu>
           <NavBtn>
             {user? (
               <NavBtnLink to="/" onClick={handleLogout}>Logout</NavBtnLink>
