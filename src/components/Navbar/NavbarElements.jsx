@@ -46,7 +46,7 @@ export const NavLogo = styled(LinkR)`
 export const myLogo = styled.img`
     width: 150px;
     height: 150px;
-    img: require('../../images/emg.png');
+    // img: require('../../images/emg.png');
     alt: 'myLogo';
 `;
 
