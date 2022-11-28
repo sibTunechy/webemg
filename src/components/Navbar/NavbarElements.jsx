@@ -43,11 +43,10 @@ export const NavLogo = styled(LinkR)`
     text-decoration: none;
 `;
 
-export const myLogo = styled.img`
+export const MyLogo = styled.img`
     width: 150px;
     height: 150px;
-    // img: require('../../images/emg.png');
-    alt: 'myLogo';
+    margin: -5px;
 `;
 
 export const MobileIcon = styled.ul`

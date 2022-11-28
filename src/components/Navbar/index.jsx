@@ -11,7 +11,7 @@ import {
   NavBtn,
   NavBtnLink,
   Link,
-  myLogo
+  MyLogo
 } from "./NavbarElements";
 // import myLogo from "../../images/emg.svg";
 import { animateScroll as scroll } from "react-scroll";
@@ -73,10 +73,10 @@ const handleLogout = ()=>{
 }
   return (
     <>
-      <Nav scrollNav={scrollNav}>
-        <NavbarContainer>
-          <NavLogo {...navBarData} to="/" onClick={toggleHome} >
-           <img src={myLogo} alt='myLogo' />
+      <Nav {...navBarData} scrollNav={scrollNav}>
+        <NavbarContainer  >
+          <NavLogo  to="/" onClick={toggleHome} >
+           <img src={MyLogo} alt='myLogo' />
           </NavLogo>
           <MobileIcon onClick={toggle}>
             <AiOutlineBars />
