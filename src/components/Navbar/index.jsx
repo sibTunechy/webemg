@@ -16,13 +16,13 @@ import {
 // import myLogo from "../../images/emg.svg";
 import { animateScroll as scroll } from "react-scroll";
 import { useNavigate, useLocation } from "react-router-dom";
-import navBarData from "../../components/Navbar/Data";
+// import navBarData from "../../components/Navbar/Data";
 // import { LOGOUT } from '../../constants/actionTypes';
 import decode from "jwt-decode";
 import { useDispatch } from "react-redux";
 // import * as actionType from '../../constants/actionTypes';
 
-const Navbar = ({ toggle,  }) => {
+const Navbar = ({ toggle, navBarData, img, alt  }) => {
   const [user, setUser] = useState(JSON.parse(localStorage.getItem("profile")));
   const userTest = localStorage.getItem("profile");
 
@@ -73,10 +73,10 @@ const handleLogout = ()=>{
 }
   return (
     <>
-      <Nav {...navBarData} scrollNav={scrollNav}>
+      <Nav  scrollNav={scrollNav}>
         <NavbarContainer  >
-          <NavLogo  to="/" onClick={toggleHome} >
-           <img src={MyLogo} alt='myLogo' />
+          <NavLogo {...navBarData}  to="/" onClick={toggleHome} >
+           <MyLogo img={img} alt={alt} />
           </NavLogo>
           <MobileIcon onClick={toggle}>
             <AiOutlineBars />
