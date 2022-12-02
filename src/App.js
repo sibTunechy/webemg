@@ -17,6 +17,7 @@ import Auth from './components/Auth/Auth';
 import Welcome from './components/Welcome';
 // import Secabout from './components/Secabout';
 import Thirdabout from './components/Thirdabout';
+import { navBarData } from './components/Navbar/Data';
 
 
 function App() {
@@ -30,7 +31,7 @@ function App() {
     return (
         <Router>
             <Sidebar isOpen={isOpen} toggle={toggle}/>
-            <Navbar toggle={toggle}/>
+            <Navbar {...navBarData} toggle={toggle}/> 
             <Routes>
                 <Route path='/' element={<Home/>}/>
                 <Route path='/joinus' element={<JoinusPage/>}/>
