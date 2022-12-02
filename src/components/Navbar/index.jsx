@@ -22,7 +22,7 @@ import decode from "jwt-decode";
 import { useDispatch } from "react-redux";
 // import * as actionType from '../../constants/actionTypes';
 
-const Navbar = ({ toggle }) => {
+const Navbar = ({ toggle,  }) => {
   const [user, setUser] = useState(JSON.parse(localStorage.getItem("profile")));
   const userTest = localStorage.getItem("profile");
 
