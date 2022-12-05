@@ -136,14 +136,14 @@ const handleLogout = ()=>{
               </NavLinks>
             </NavItem>
           </NavMenu>
-          <NavBt>
+          <NavBtn>
             {user? (
               <NavBtnLink to="/" onClick={handleLogout}>Logout</NavBtnLink>
             ) : (
               <NavBtnLink to="/auth">Join Us</NavBtnLink>
             )}
             {/* <NavBtnLink to='/auth'>Join Us</NavBtnLink> */}
-          </NavBt>
+          </NavBtn>
         </NavbarContainer>
       </Nav>
     </>
