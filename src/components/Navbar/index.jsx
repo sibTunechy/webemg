@@ -73,7 +73,7 @@ const handleLogout = ()=>{
 }
   return (
     <>
-      <Nav  scrollNav={scrollNav}>
+      <Na  scrollNav={scrollNav}>
         <NavbarContainer  >
           <NavLogo {...navBarData}  to="/" onClick={toggleHome} >
            <MyLogo img={img} alt={alt} />
@@ -145,7 +145,7 @@ const handleLogout = ()=>{
             {/* <NavBtnLink to='/auth'>Join Us</NavBtnLink> */}
           </NavBtn>
         </NavbarContainer>
-      </Nav>
+      </Na>
     </>
   );
 };
