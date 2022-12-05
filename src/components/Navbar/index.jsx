@@ -112,7 +112,7 @@ const handleLogout = ()=>{
               </NavLinks>
             </NavItem>
             <NavItem>
-              <Link
+              <Li
                 to="/contactpage"
                 smooth={true}
                 duration={500}
@@ -121,7 +121,7 @@ const handleLogout = ()=>{
                 offset={-80}
               >
                 Contact
-              </Link>
+              </Li>
             </NavItem>
             <NavItem>
               <NavLinks
