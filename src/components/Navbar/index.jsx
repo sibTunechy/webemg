@@ -75,7 +75,7 @@ const handleLogout = ()=>{
     <>
       <Nav  scrollNav={scrollNav}>
         <NavbarContainer  >
-          <NavLogo {...navBarData}  to="/" onClick={toggleHome} >
+          <NavLogo  to="/" onClick={toggleHome} >
            <MyLogo img={img} alt={alt} />
           </NavLogo>
           <MobileIcon onClick={toggle}>
