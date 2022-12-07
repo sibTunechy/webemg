@@ -84,7 +84,7 @@ const handleLogout = ()=>{
           <NavMenu>
             <NavItem>
               <NavLinks to="/" onClick={toggleHome}>
-                H
+                Home
               </NavLinks>
             </NavItem>
             <NavItem>
