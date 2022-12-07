@@ -82,11 +82,11 @@ const handleLogout = ()=>{
             <AiOutlineBars />
           </MobileIcon>
           <NavMenu>
-            <NavIt>
+            <NavItem>
               <NavLinks to="/" onClick={toggleHome}>
                 Home
               </NavLinks>
-            </NavIt>
+            </NavItem>
             <NavItem>
               <NavLinks
                 to="/aboutus"
