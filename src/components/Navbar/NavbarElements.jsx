@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import { Link as LinkR } from 'react-router-dom';
 import { Link as LinkC } from 'react-router-dom';
 import { Link as LinkScroll} from 'react-scroll';
+import img from '../../images/emg.png';
 
 export const Nav = styled.nav`
     background: ${({scrollNav}) => (scrollNav ? '#000' : 'transparent')};
@@ -45,8 +46,10 @@ export const NavLogo = styled(LinkR)`
 
 export const MyLogo = styled.img`
     width: 150px;
-    height: 150px;
-    margin: -5px;              // Img = MyLogo  // img=img
+    height: 80px;
+    margin: -5px;
+    background-image: url(${img});
+    background-position: center; // design the logo from here                              // Img = MyLogo  // img=img
 `;
 
 export const MobileIcon = styled.ul`
