@@ -51,7 +51,7 @@ export const MyLogo = styled.svg`
     background-image: url(${svg});
     transform: scale(4);
     background-size: contain;
-    background-position: center; // design the logo from here // Img = MyLogo  // img=img
+    background-position: center;
 `;
 
 export const MobileIcon = styled.ul`
