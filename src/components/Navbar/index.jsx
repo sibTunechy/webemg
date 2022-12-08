@@ -22,7 +22,7 @@ import decode from "jwt-decode";
 import { useDispatch } from "react-redux";
 // import * as actionType from '../../constants/actionTypes';
 
-const Navbar = ({ toggle, navBarData, img, alt  }) => {
+const Navbar = ({ toggle, navBar }) => {
   const [user, setUser] = useState(JSON.parse(localStorage.getItem("profile")));
   const userTest = localStorage.getItem("profile");
 
@@ -76,7 +76,7 @@ const handleLogout = ()=>{
       <Nav  scrollNav={scrollNav}>
         <NavbarContainer  >
           <NavLogo  to="/" onClick={toggleHome} >
-           <MyLogo img={img} alt={alt} />
+           <MyLogo/>
           </NavLogo>
           <MobileIcon onClick={toggle}>
             <AiOutlineBars />

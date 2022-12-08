@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { Link as LinkR } from 'react-router-dom';
 import { Link as LinkC } from 'react-router-dom';
 import { Link as LinkScroll} from 'react-scroll';
-import img from '../../images/emg.png';
+import svg from '../../images/emg.svg';
 
 export const Nav = styled.nav`
     background: ${({scrollNav}) => (scrollNav ? '#000' : 'transparent')};
@@ -44,12 +44,15 @@ export const NavLogo = styled(LinkR)`
     text-decoration: none;
 `;
 
-export const MyLogo = styled.img`
-    width: 150px;
+export const MyLogo = styled.svg`
+    width: 100px;
     height: 80px;
     margin: -5px;
-    background-image: url(${img});
-    background-position: center; // design the logo from here                              // Img = MyLogo  // img=img
+    background-image: url(${svg});
+    // stroke-width: 1px;
+    transform: scale(4);
+    background-size: contain;
+    background-position: center; // design the logo from here // Img = MyLogo  // img=img
 `;
 
 export const MobileIcon = styled.ul`
