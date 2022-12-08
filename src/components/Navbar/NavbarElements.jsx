@@ -49,7 +49,6 @@ export const MyLogo = styled.svg`
     height: 80px;
     margin: -5px;
     background-image: url(${svg});
-    // stroke-width: 1px;
     transform: scale(4);
     background-size: contain;
     background-position: center; // design the logo from here // Img = MyLogo  // img=img
