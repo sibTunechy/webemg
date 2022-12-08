@@ -5,7 +5,7 @@ import { Link as LinkScroll} from 'react-scroll';
 import svg from '../../images/emg.svg';
 
 export const Nav = styled.nav`
-    background: ${({scrollNav}) => (scrollNav ? '#000' : 'transparent')};
+    background: ${({scrollNav}) => (scrollNav ? '' : 'transparent')}; // check here
     height: 80px;
     margin-top: -80px;
     display: flex;
@@ -45,6 +45,7 @@ export const NavLogo = styled(LinkR)`
 `;
 
 export const MyLogo = styled.svg`
+    background: ${({scrollNav}) => (scrollNav ? 'transparent' : 'transparent')}; //check here and make logo show on scroll
     width: 100px;
     height: 80px;
     margin: -5px;
@@ -52,6 +53,10 @@ export const MyLogo = styled.svg`
     transform: scale(4);
     background-size: contain;
     background-position: center;
+
+    @media screen and (max-width: 960px) {
+        transition: 0.8s all ease;
+    }
 `;
 
 export const MobileIcon = styled.ul`
