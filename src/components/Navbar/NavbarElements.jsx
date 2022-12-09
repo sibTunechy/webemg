@@ -40,7 +40,7 @@ export const NavLogo = styled(LinkR)`
     display: flex;
     align-items: center;
     margin-left: 24px;
-    font-weight: bold;
+    ft-weight: bold;
     text-decoration: none;
 `;
 
