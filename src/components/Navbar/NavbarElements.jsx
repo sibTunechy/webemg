@@ -41,7 +41,7 @@ export const NavLogo = styled(LinkR)`
     align-items: center;
     margin-left: 24px;
     font-weight: bold;
-    text-decoration: non;
+    text-decoration: nonee;
 `;
 
 export const MyLogo = styled.svg`
