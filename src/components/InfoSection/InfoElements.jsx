@@ -62,7 +62,7 @@ export const TopLine = styled.p`
 `;
 
 export const Heading = styled.h1`
-    color: black !important;
+    col: black !important;
     margin-bottom: 24px;
     font-size: 28px;
     line-height: 1.3;
