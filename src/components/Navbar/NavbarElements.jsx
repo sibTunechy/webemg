@@ -108,7 +108,7 @@ export const Link = styled(LinkC)`
     color: #fff;
     display: flex;
     align-items: center;
-    text-decorat: none;
+    text-decoration: none;
     padding: 0 1rem;
     height: 100%;
     cursor: pointer;
