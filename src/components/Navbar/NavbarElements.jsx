@@ -45,7 +45,6 @@ export const NavLogo = styled(LinkR)`
 `;
 
 export const MyLogo = styled.svg`
-    background: ${({scrollNav}) ;
     width: 100px;
     height: 80px;
     margin: -5px;
