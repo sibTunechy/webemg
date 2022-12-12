@@ -5,7 +5,7 @@ import { Link as LinkScroll} from 'react-scroll';
 import svg from '../../images/emg.svg';
 
 export const Nav = styled.nav`
-    background: ${({scrollNav}) => (scrollNav ? '#008000' : 'transparent')}; // check here
+    background: ${({scrollNav}) => (scrollNav ? '#008000' : 'transparent')}; // white too is okay with black nav text
     height: 80px;
     margin-top: -80px;
     display: flex;
