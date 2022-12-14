@@ -23,7 +23,7 @@ export const Nav = styled.nav`
 `;
 
 export const NavbarContainer= styled.div`
-    display: flex;
+    display: fl;
     justify-content: space-between;
     height: 80px;
     z-index: 1;
