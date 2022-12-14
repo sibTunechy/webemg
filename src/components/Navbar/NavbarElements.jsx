@@ -11,7 +11,7 @@ export const Nav = styled.nav`
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1rem;
+    font-s: 1rem;
     position: sticky;
     top: 0;
     z-index: 10;
