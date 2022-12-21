@@ -128,7 +128,7 @@ const handleLogout = ()=>{
                 to="discover"
                 smooth={true}
                 duration={500}
-                spy={true}
+                // spy={true}
                 exact="true"
                 offset={-80}
               >
