@@ -128,7 +128,7 @@ const handleLogout = ()=>{
                 to="discover"
                 smooth={true}
                 duration={500}
-                // spy={true}
+                spy={true}
                 exact="true"
                 offset={-80}
               >
@@ -142,7 +142,6 @@ const handleLogout = ()=>{
             ) : (
               <NavBtnLink to="/auth">Join Us</NavBtnLink>
             )}
-            {/* <NavBtnLink to='/auth'>Join Us</NavBtnLink> */}
           </NavBtn>
         </NavbarContainer>
       </Nav>
