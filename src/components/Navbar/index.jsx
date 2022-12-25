@@ -120,7 +120,7 @@ const handleLogout = ()=>{
                 exact="true"
                 offset={-80}
               >
-                Cont
+                Contact
               </Link>
             </NavItem>
             <NavItem>
