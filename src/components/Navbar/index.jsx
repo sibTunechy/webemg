@@ -132,7 +132,7 @@ const handleLogout = ()=>{
                 exact="true"
                 offset={-80}
               >
-                Discover
+                Disco
               </NavLinks>
             </NavItem>
           </NavMenu>
