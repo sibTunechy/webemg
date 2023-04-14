@@ -5,7 +5,7 @@ import './styles.css';
 const Infosec = () => {
   return (
     <>  
-    <div>
+    <div className='header-div'>
       <h1>Digital Technology</h1>
       <span>Advanced Agile and other SDLC (Software Development Life Cycle) Methodologies, Cyber Security, Cloud Computing, Design thinking/Product Development Labs, and others are among our digital technology strengths.</span>
     </div>
