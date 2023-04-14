@@ -1,5 +1,6 @@
 import React from 'react';
 import Icon4 from '../../images/timegear.jpg';
+import './styles.css';
 
 const Infosec = () => {
   return (
