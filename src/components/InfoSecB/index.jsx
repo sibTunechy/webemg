@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Icon4 from '../../images/timegear.jpg';
 
 const Infosec = () => {
   return (
@@ -14,7 +15,7 @@ const Infosec = () => {
         <p>Platform as a Service (PaaS) and Software as a Servive (SaaS) are scalable solutions for businesses of all sizes. Our technologies have ushered new era of automation and great customer service where customer is king and the most innovative way wins.</p>
       </div>
       <div>
-        <img/>
+        <img alt='timegear' src={Icon4} width='80' height='150'/>
       </div>
     </div>     
     </>
