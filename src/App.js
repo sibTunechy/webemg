@@ -17,6 +17,8 @@ import Auth from './components/Auth/Auth';
 import Welcome from './components/Welcome';
 // import Secabout from './components/Secabout';
 import Thirdabout from './components/Thirdabout';
+import Infosec from './components/InfoSecB';
+// import Infosec from './components/InfosecB';
 // import { navBarData } from './components/Navbar/Data';
 
 
@@ -46,6 +48,7 @@ function App() {
                 <Route path='/welcome' element={<Welcome/>} />
                 {/* <Route path='secondaboutpage' element={<Secabout/>} /> */}
                 <Route path='aboutpage' element={<Thirdabout/>} />
+                <Route path='/infosec' element={<Infosec/>} />
             </Routes>
             <Footer/>
         </Router>
