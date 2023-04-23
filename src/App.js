@@ -18,6 +18,7 @@ import Welcome from './components/Welcome';
 // import Secabout from './components/Secabout';
 import Thirdabout from './components/Thirdabout';
 import Infosec from './components/InfoSecB';
+import Newpage from './components/Newpage';
 // import Infosec from './components/InfosecB';
 // import { navBarData } from './components/Navbar/Data';
 
@@ -33,7 +34,8 @@ function App() {
     return (
         <Router>
             <Sidebar isOpen={isOpen} toggle={toggle}/>
-            <Navbar  toggle={toggle}/> 
+            <Navbar  toggle={toggle}/>
+            <Newpage/> 
             <Routes>
                 <Route path='/' element={<Home/>}/>
                 <Route path='/joinus' element={<JoinusPage/>}/>
@@ -49,6 +51,7 @@ function App() {
                 {/* <Route path='secondaboutpage' element={<Secabout/>} /> */}
                 <Route path='aboutpage' element={<Thirdabout/>} />
                 <Route path='/infosec' element={<Infosec/>} />
+                {/* <Route path='/newpage' element={<Newpage/>} /> */}
             </Routes>
             <Footer/>
         </Router>

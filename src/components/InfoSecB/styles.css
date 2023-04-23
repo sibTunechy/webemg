@@ -1,0 +1,15 @@
+.header-div{
+    border: 3px solid red;
+};
+
+.container-parent{
+    border: 3px solid green;
+};
+
+.div-info{
+    border: 3px solid blue;
+};
+
+.div-image {
+    border: 3px solid black;
+}

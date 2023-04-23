@@ -19,7 +19,7 @@ const Footer = () => {
                         <FooterLinkTitle>ABOUT US</FooterLinkTitle>
                             {/* <FooterLink to='/about'>How it works</FooterLink> */}
                             {/* <FooterLink to='/about'>Testimonials</FooterLink> */}
-                            {/* <FooterLink to='/about'>Careers</FooterLink> */}
+                            <FooterLink to='/newpage'>Careers</FooterLink>
                             <FooterLink to='/infosec'>Terms of Use</FooterLink>
                             <FooterLink to='/privacypage'>Privacy Policy</FooterLink>                     
                             {/* <FooterLink to='/secondaboutpage'>Clients</FooterLink>                      */}

@@ -1,11 +1,10 @@
-import React from 'react'
+import React from 'react';
+import './styles.css';
 
 const Newpage = () => {
   return (
     <>
-        <div>
-            
-        </div>
+        <h1>Newpage</h1>
     </>
   )
 }
